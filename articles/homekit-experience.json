@@ -1,0 +1,53 @@
+{
+  "titre": "Mon setup domotique HomeKit : points forts et points à améliorer",
+  "categorie": "apple",
+  "auteur": "Shams & Dean",
+  "date": "14 mars 2026",
+  "resume": "Un an de HomeKit complet : IKEA, Meross, Eve, Elgato, Matter. Le confort est réel, la facture lumière en baisse. Mais Siri reste capricieux et la simulation de présence ne trompe personne.",
+  "contenu": [
+    {
+      "type": "paragraphe",
+      "texte": "J'ai assemblé un système HomeKit complet depuis plus d'un an : ampoules IKEA et Meross couleur dans la salle à manger, bandeau Elgato sous la TV, détecteur de porte à l'entrée, modules Meross derrière les interrupteurs, prises Eve pour mesurer la consommation, stores IKEA sur batterie française qui tiennent des mois, et un robot aspirateur connecté via Matter. HomePod pour Siri, Apple TV en hub principal, gateway IKEA en RJ45 pour la stabilité. Le tout simplifie le quotidien, mais certains points méritent encore du travail."
+    },
+    {
+      "type": "titre2",
+      "texte": "Points forts de ma domotique"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Siri réagit vite et précis sur la plupart des commandes. \"Salle à manger\" : lumière chaude IKEA et Meross, bandeau Elgato en blanc doux, tout synchrone. Le détecteur porte adapte l'éclairage entrée selon l'heure, faible la nuit, vif en journée. Au départ détecté via localisation iPhone : lumières et prises coupées, robot lancé les jours impairs, stores fermés. Je rentre les bras chargés, les lumières sont prêtes, le HomePod joue doucement, les volets sont en place. Cinq minutes gagnées par jour, sans y penser."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Les prises Eve affichent la consommation en temps réel dans l'app Maison, utile pour repérer les appareils gourmands. L'intégration entre marques reste fluide : gateway IKEA en RJ45 stable même dans les angles faibles, Meross fiable et économique, Eve précise, Elgato exemplaire pour les effets. Apple TV en hub principal, zéro coupure. Même Wi-Fi moyen, ça tient."
+    },
+    {
+      "type": "titre2",
+      "texte": "Points à améliorer"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Siri trébuche sur les noms prononcés vite. \"Bandeau TV\" devient \"banjo TV\", c'est frustrant. Le robot Matter nettoie bien, mais \"retour à la base\" passe encore par son app dédiée. Les stores IKEA sont impeccables au quotidien, mais la recharge tous les six mois est une petite contrainte récurrente."
+    },
+    {
+      "type": "titre2",
+      "texte": "Ce que je ferais ensuite en domotique"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Plutôt que de multiplier les achats maintenant, j'attends patiemment Apple Intelligence qui promet de rendre Siri vraiment intelligent. Les automatisations complexes devraient enfin se configurer en langage naturel, sans bidouiller pendant des heures dans Raccourcis. Si ça tient ses promesses, ça change tout."
+    },
+    {
+      "type": "titre2",
+      "texte": "Bilan franc"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Apple Home brille pour un solo ou un couple en appartement. Confort réel, facture lumière en baisse de 20% grâce aux prises Eve, 300 € investis rentabilisés en tranquillité. L'écosystème s'est ouvert avec Matter et Thread, et les appareils compatibles se multiplient. Pour qui vit dans l'univers Apple, c'est aujourd'hui la solution domotique la plus fluide du marché."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un an après, je ne reviendrais pas en arrière. La domotique ne devrait pas se voir, juste fonctionner. Apple Home en est proche. Pas parfait, mais proche."
+    }
+  ]
+}

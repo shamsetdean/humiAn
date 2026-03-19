@@ -1,0 +1,106 @@
+{
+  "id": "voiture-electrique-usage",
+  "titre": "Choisir sa voiture électrique : arrêter de chercher le \"meilleur modèle\", commencer par se comprendre soi",
+  "categorie": "tesla",
+  "date": "12 mars 2026",
+  "auteur": "Shams&Dean",
+  "resume": "La vraie question n'est pas quelle est la meilleure voiture, mais pour quel conducteur. Le quotidien dicte le bon choix, pas le marché.",
+  "contenu": [
+    {
+      "type": "paragraphe",
+      "texte": "La plupart des gens commencent leur recherche de voiture au mauvais endroit. Ils ouvrent Leboncoin. Ou tapent \"meilleure voiture électrique 2026\" sur Google. Et déjà, la décision part de travers."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Parce que la vraie question n'est pas : quelle est la meilleure voiture ? La vraie question, c'est : pour quel conducteur ?"
+    },
+    {
+      "type": "titre2",
+      "texte": "le vrai problème n'est pas la voiture"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Deux personnes peuvent acheter exactement le même véhicule et vivre une expérience totalement différente. L'un en sera ravi. L'autre le détestera au bout de six mois."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Pourquoi ? Parce qu'on choisit trop souvent une voiture avant de comprendre comment elle va réellement être utilisée."
+    },
+    {
+      "type": "titre2",
+      "texte": "le quotidien dicte le bon choix"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Combien de kilomètres par jour ? Quel type de trajets ? Où se fait la recharge ? Combien de longs trajets par an ? Ces détails, que tout le monde ignore, changent tout."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Prenons un exemple simple : un conducteur qui parcourt 30 km par jour, charge au travail et voyage rarement loin. Beaucoup se tournent vers un SUV électrique à 50 000 €. Batterie géante, autonomie de 600 km, recharge express. Sur le papier, c'est flatteur. En pratique, c'est souvent inutile."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Ce profil a besoin d'une voiture plus légère, plus simple, plus cohérente : une berline compacte efficiente, comme une Hyundai Kona Electric ou une MG4."
+    },
+    {
+      "type": "titre2",
+      "texte": "le diagnostic, la clé d'un achat intelligent"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Avant même de comparer les modèles, il faut d'abord analyser son usage réel. Usage quotidien : nombre de kilomètres par jour, fréquence d'utilisation. Type de trajets : urbain, périurbain, autoroute, longs trajets occasionnels. Recharge : domicile, travail, bornes publiques. Budget et financement : achat, location, durée de possession, décote acceptable. Priorités : confort, performance, coût d'entretien, design, revente. Usage réel : passagers, coffre, remorque. Tolérance au risque : goût pour la nouveauté ou préférence pour la fiabilité éprouvée."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Une fois tout cela identifié, la recommandation devient fluide. On sait quelle taille de batterie, quelle catégorie de véhicule et quel budget sont réellement pertinents."
+    },
+    {
+      "type": "titre2",
+      "texte": "le marché ne décide pas, ton style de vie oui"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Ce n'est pas le marché qui dicte la bonne voiture. C'est ton quotidien. Et c'est là que beaucoup font fausse route. On veut suivre la tendance, alors qu'il suffit de suivre son usage."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La meilleure voiture n'existe pas. Il n'y a que des voitures cohérentes… ou pas."
+    },
+    {
+      "type": "titre2",
+      "texte": "se poser les bonnes questions avant d'acheter"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Une voiture mal adaptée coûte des milliers d'euros pour rien : batterie trop grande, entretien inutilement cher, décote forte. Le secret, ce n'est pas de comparer des fiches techniques. C'est de se poser les questions qu'un vendeur ne posera jamais."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Parce qu'au fond, choisir une voiture, c'est d'abord un miroir posé sur son mode de vie."
+    },
+    {
+      "type": "titre2",
+      "texte": "en résumé"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Choisir intelligemment, c'est comprendre son usage avant tout, dimensionner la batterie au besoin réel, fixer un budget total clair, et seulement ensuite choisir le modèle. Tout le reste n'est que marketing."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La meilleure voiture n'est jamais celle dont tout le monde parle. C'est celle qui colle parfaitement à ton quotidien."
+    },
+    {
+      "type": "titre2",
+      "texte": "sources et inspirations"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Études Avere-France sur les usages réels des véhicules électriques (2025). Données Ademe sur le coût total de possession. Témoignages utilisateurs (Automobile Propre, Caradisiac, Nextmove). Fiches techniques Hyundai & MG (modèles 2025–2026)."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "J'ai conçu un prompt complet pour construire ce diagnostic conducteur étape par étape. Si tu veux l'utiliser, n'hésite pas à m'écrire : je te l'enverrai volontiers."
+    }
+  ]
+}

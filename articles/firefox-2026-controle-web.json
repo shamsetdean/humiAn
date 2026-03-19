@@ -1,0 +1,61 @@
+{
+  "titre": "Firefox 2026 : reprendre le contrôle du web",
+  "categorie": "tech",
+  "auteur": "Shams & Dean",
+  "date": "24 mars 2026",
+  "resume": "Firefox défend une idée simple : laisser l'utilisateur décider. VPN intégré gratuit, Smart Window, API Sanitizer, vue fractionnée. En 2026, reprendre le contrôle de sa navigation n'est pas un luxe.",
+  "contenu": [
+    {
+      "type": "paragraphe",
+      "texte": "Dans un paysage numérique dominé par des navigateurs intégrés et des services interconnectés, Firefox persiste à défendre une idée simple : laisser l'utilisateur décider. Plutôt que d'imposer des choix par défaut ou d'enfermer la navigation dans un écosystème, Mozilla renforce sa vision d'un web ouvert et maîtrisé."
+    },
+    {
+      "type": "titre2",
+      "texte": "Un navigateur plus clair, plus cohérent"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La nouvelle interface des paramètres simplifie la personnalisation. Navigation fluide, recherche intégrée, hiérarchie plus lisible : tout est pensé pour que chacun ajuste l'expérience à sa manière sans se perdre dans des menus complexes."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "La nouveauté la plus notable reste le VPN intégré. Gratuit et transparent, il offre 50 Go de données mensuelles en France, en Allemagne, au Royaume-Uni et aux États-Unis. Contrairement à de nombreux services pseudo-gratuits, celui de Mozilla repose sur des principes de protection explicites : pas de collecte abusive, pas de compromis sur la confidentialité."
+    },
+    {
+      "type": "titre2",
+      "texte": "L'intelligence artificielle à échelle humaine"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Plutôt que d'inonder le navigateur de fonctions automatiques, Firefox mise sur le choix. La Smart Window propose une assistance ponctuelle : définition, résumé d'article, comparaison rapide. L'outil reste facultatif et respectueux de la volonté de l'utilisateur. L'IA ne doit pas diriger la navigation, mais l'accompagner."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Dans la même logique, de nouveaux outils facilitent la concentration : la vue fractionnée pour afficher deux sites côte à côte, et les notes d'onglet pour annoter une recherche sans multiplier les applications."
+    },
+    {
+      "type": "titre2",
+      "texte": "Une sécurité renforcée par la norme"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Firefox est désormais le premier navigateur à intégrer l'API Sanitizer, une norme web conçue pour bloquer les attaques XSS à la racine. Peu visible pour l'utilisateur, ce progrès illustre la constance de Mozilla : protéger avant de corriger."
+    },
+    {
+      "type": "titre2",
+      "texte": "Un souffle esthétique et symbolique"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Thèmes actualisés, icônes revisitées, pages plus équilibrées : Firefox modernise son apparence sans renier son identité. Un nouveau personnage, Kit, incarne cet esprit d'accompagnement et de proximité. Plus qu'une mascotte, c'est le symbole d'une technologie qui assume sa dimension humaine."
+    },
+    {
+      "type": "titre2",
+      "texte": "Une position assumée"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "À l'heure où la majorité des navigateurs servent des logiques commerciales intégrées, Firefox continue de défendre l'indépendance numérique. En 2026, reprendre le contrôle de sa navigation n'est pas un luxe. C'est une manière de reprendre la main sur son environnement numérique."
+    }
+  ]
+}

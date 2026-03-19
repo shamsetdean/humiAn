@@ -1,0 +1,41 @@
+{
+  "titre": "Les trois fonctions Apple qui sauvent un projet en urgence",
+  "categorie": "apple",
+  "auteur": "Shams & Dean",
+  "date": "5 mars 2026",
+  "resume": "Le deadline approche à 23h. Handoff, presse-papiers universel et AirDrop inversent la situation en quelques minutes. Plan en trois étapes, validé en conditions réelles.",
+  "contenu": [
+    {
+      "type": "paragraphe",
+      "texte": "Le deadline approche à 23h, votre projet reste inachevé sur iPhone, Mac en attente. Handoff, presse-papiers universel et AirDrop inversent la situation en quelques minutes. Plan en trois étapes, validé en conditions réelles."
+    },
+    {
+      "type": "titre2",
+      "texte": "Presse-papiers universel pour le texte rapide"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Prenez notes, liens ou données sur iPhone via Notes ou Safari. Copiez. Sur Mac, collez (Cmd+V) dans Pages ou Keynote. Exemple précis : trois graphiques extraits d'un article de presse, copiés sur mobile et insérés au rapport instantanément. Activez Wi-Fi et Bluetooth, même sans connexion internet, avec le même identifiant Apple."
+    },
+    {
+      "type": "titre2",
+      "texte": "AirDrop pour les volumes importants"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Photos, scans, PDF ? Dans Photos ou Fichiers sur iPhone : Partager, AirDrop, ciblez le Mac proche. Cas concret : 20 images prototype transférées en 20 secondes, qualité intacte. Optimal à courte distance, Wi-Fi activé sur les deux appareils, sans obligation d'être connecté au même réseau."
+    },
+    {
+      "type": "titre2",
+      "texte": "Handoff pour l'assemblage fluide"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Pages ouvert sur iPhone ? L'icône surgit dans le Dock Mac. Reprenez pile au bon endroit, ajoutez les fichiers AirDrop. Récit réel : pitch finalisé en 15 minutes avant minuit, sans accroc."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Ces trois fonctions gagnent une heure décisive pour un rendu irréprochable. Appliquez sans attendre. Projet sauvé ? Partagez votre expérience."
+    }
+  ]
+}
