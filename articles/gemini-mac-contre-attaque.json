@@ -1,0 +1,41 @@
+{
+  "titre": "Google lance Gemini sur Mac : la contre-attaque tant attendue",
+  "categorie": "apple",
+  "auteur": "Shams & Dean",
+  "date": "27 mars 2026",
+  "resume": "Depuis le 19 mars 2026, une bêta privée de Gemini circule sur Mac. ChatGPT et Claude déjà natifs, Siri en retard. Apple emprunte l'IA de Google. La guerre des IA sur Mac est ouverte.",
+  "contenu": [
+    {
+      "type": "paragraphe",
+      "texte": "Depuis le 19 mars 2026, une bêta privée de l'application Gemini de Google circule chez quelques testeurs externes. Objectif : rattraper ChatGPT et Claude, déjà natifs chez Apple. L'interface gère les fichiers locaux et embarque une Desktop Intelligence qui analyse l'écran en direct. Copiez un tableau Excel : trois secondes plus tard, Gemini le synthétise. Sans navigateur."
+    },
+    {
+      "type": "titre2",
+      "texte": "En retard, mais dans la course"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "OpenAI et Anthropic occupaient le terrain sur Mac dès octobre 2025. Gemini piétinait dans Safari. Ces tests collectent des retours extérieurs pour un lancement estival. Le code laisse entrevoir Gmail direct, YouTube intégré, et 1 million de jetons de contexte. L'app existe. Elle fonctionne."
+    },
+    {
+      "type": "titre2",
+      "texte": "Le paradoxe Apple"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Apple vante la vie privée depuis toujours. L'Europe applaudit. Pourtant Cupertino signe avec Google : Gemini dopera Siri dès avril 2026 via iOS 26.4. La marque a par ailleurs abandonné son projet de voiture électrique Titan en février 2024, après dix ans et 10 milliards de dollars. Pendant ce temps, ChatGPT décollait en novembre 2022, Claude suivait, et Siri végétait. Résultat : Apple emprunte l'IA de Mountain View."
+    },
+    {
+      "type": "titre2",
+      "texte": "Ce que ça change concrètement"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un testeur californien a condensé 50 lignes de code Swift en plan d'action grâce à Gemini. Réactivité multipliée par quatre. Le RGPD observe de près : si l'app analyse des écrans sans opt-in limpide, Bruxelles réagira."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Vos Mac s'éveillent à la guerre des IA. Gemini arrive. ChatGPT domine. Claude guette. Laquelle testerez-vous en premier ?"
+    }
+  ]
+}
