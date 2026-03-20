@@ -1,0 +1,126 @@
+{
+  "id": "nas-wireguard-freebox",
+  "titre": "Sécuriser son NAS à la maison : la méthode WireGuard sur Freebox Pop",
+  "categorie": "tech",
+  "date": "13 mars 2026",
+  "auteur": "Shams&Dean",
+  "resume": "Laisser son NAS ouvert sur Internet, c'est jouer avec le feu. WireGuard sur Freebox Pop offre une alternative simple, rapide et totalement sous ton contrôle.",
+  "contenu": [
+    {
+      "type": "paragraphe",
+      "texte": "Tu veux accéder à ton NAS depuis l'extérieur sans risquer de tout exposer sur Internet ? Bonne nouvelle : tu peux le faire en toute sécurité, simplement, avec WireGuard sur ta Freebox Pop. Et la différence est énorme."
+    },
+    {
+      "type": "titre2",
+      "texte": "Pourquoi il ne faut plus exposer son NAS directement"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Soyons honnêtes : laisser ton NAS ouvert au web, c'est comme laisser ta porte d'entrée grande ouverte sous prétexte que tu n'as rien à cacher. Les pirates, eux, ne dorment jamais : scans automatiques, tentatives de brute force, ransomwares qui chassent les serveurs accessibles… c'est la jungle."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le vrai problème, c'est qu'on confond souvent facilité et sécurité. Et dans cette confusion, c'est souvent toi qui perds."
+    },
+    {
+      "type": "titre2",
+      "texte": "Le VPN, ton meilleur bouclier domestique"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Un VPN, c'est tout simplement un tunnel chiffré entre ton ordinateur et ton réseau local. L'idée est simple : quand il est actif, ton appareil se comporte comme s'il était à la maison. Résultat : ton NAS, ton imprimante, tes fichiers , tout est utilisable comme si tu étais sur ton Wi‑Fi. Et surtout : rien n'est exposé en clair sur Internet."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Mais attention : tous les VPN ne se valent pas."
+    },
+    {
+      "type": "titre2",
+      "texte": "Pourquoi tout le monde passe à WireGuard"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Oublie les protocoles lourds comme OpenVPN ou IPSec. WireGuard, c'est la version allégée et ultra‑rapide du VPN moderne. Petit code, chiffrement solide, performance de premier ordre. Et le mieux : sa configuration est d'une simplicité redoutable."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "OpenVPN, c'est un dinosaure. WireGuard fait la même chose dix fois plus proprement."
+    },
+    {
+      "type": "titre2",
+      "texte": "Comment ça marche, en bref"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le schéma qui résume tout : Internet passe par un tunnel WireGuard, qui traverse la Freebox Pop pour atteindre le NAS. Une fois connecté, ton Mac se retrouve dans ton réseau local. Tu bosses, tu sauvegardes, tu accèdes à tes fichiers comme si tu étais dans ton salon."
+    },
+    {
+      "type": "titre2",
+      "texte": "Étape 1 : activer le serveur WireGuard sur la Freebox"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Rends‑toi sur mafreebox.freebox.fr, passe en mode avancé, puis dans Paramètres, Serveur VPN, WireGuard. Active le serveur, note le port, la plage d'adresses VPN (par exemple 10.0.0.0/24) et fixe le MTU à 1420, valeur sûre. Ajoute un nouveau client : ce client, ce sera ton Mac."
+    },
+    {
+      "type": "titre2",
+      "texte": "Étape 2 : installer WireGuard sur ton Mac"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Télécharge l'app WireGuard sur le Mac App Store. Ou, si tu préfères le terminal : brew install wireguard-tools. L'application est ultra simple : tu importes une configuration, tu actives le tunnel et c'est tout."
+    },
+    {
+      "type": "titre2",
+      "texte": "Étape 3 : générer les clés du tunnel"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "WireGuard repose sur des clés. La clé privée reste sur ton Mac. La clé publique est donnée à la Freebox. En ligne de commande : wg genkey | tee privatekey | wg pubkey > publickey. Deux secondes et ton accès sécurisé est prêt."
+    },
+    {
+      "type": "titre2",
+      "texte": "Étape 4 : créer la configuration client"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Crée un fichier nommé client.conf avec la section Interface (PrivateKey, Address en 10.0.0.2/32, DNS en 1.1.1.1) et la section Peer (PublicKey de la Freebox, Endpoint sur ton IP publique port 51820, AllowedIPs en 192.168.1.0/24, PersistentKeepalive à 25). Traduction : voici qui je suis, voici où je veux aller, garde la porte ouverte quand je ne parle pas. Une fois fait, tu ajoutes la clé publique du client dans l'interface Freebox."
+    },
+    {
+      "type": "titre2",
+      "texte": "Étape 5 : se connecter depuis ton Mac"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Dans WireGuard : Nouveau tunnel, Importer, Activer. Ton Mac est désormais dans ton réseau Freebox, où que tu sois. Ouvre le navigateur et accède à l'adresse locale de ton NAS, comme à la maison. Même sur un Wi‑Fi public, tu restes totalement isolé."
+    },
+    {
+      "type": "titre2",
+      "texte": "Étape 6 : ne néglige pas la sécurité basique"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Garde ta clé privée secrète. Mets un mot de passe fort à ta Freebox. Mets à jour régulièrement le firmware. Active un Keepalive si tu veux éviter les coupures. Ce sont les petits réflexes qui font la grande différence."
+    },
+    {
+      "type": "titre2",
+      "texte": "Les vrais avantages de cette solution"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Ton NAS n'est jamais visible sur Internet. Tes données sont totalement chiffrées. Tu accèdes à tout ton réseau local comme si tu étais chez toi. Et tout ça avec des performances bluffantes grâce à WireGuard."
+    },
+    {
+      "type": "titre2",
+      "texte": "La vérité, c'est celle‑ci"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Installer un VPN perso, ce n'est pas être parano. C'est juste reprendre le contrôle. Avec WireGuard sur Freebox Pop, tu te construis ton propre cloud : rapide, sécurisé, transparent. Et surtout : sous ta seule autorité."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Et toi, tu fais quoi ? Tu fais encore confiance au cloud ou tu veux garder la clé de ta maison numérique ?"
+    }
+  ]
+}
