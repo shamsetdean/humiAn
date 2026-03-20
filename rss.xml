@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anthropotech — Magazine</title>
+    <link>https://shamsetdean.github.io/Anthropotech/</link>
+    <description>Explorer la manière dont les comportements et les innovations numériques façonnent notre quotidien.</description>
+    <language>fr-FR</language>
+    <atom:link href="https://shamsetdean.github.io/Anthropotech/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://shamsetdean.github.io/Anthropotech/icons/icon-192.png</url>
+      <title>Anthropotech</title>
+      <link>https://shamsetdean.github.io/Anthropotech/</link>
+    </image>
+  <item>
+    <title><![CDATA[2026 : les IA prédisent un futur dominé par l'intelligence artificielle. Vision réaliste ou exagérée ?]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#ia-futur-2026-prediction</link>
+    <guid isPermaLink="false">ia-futur-2026-prediction</guid>
+    <description><![CDATA[ChatGPT, Gemini, Claude : on les a interrogées sur 2026. Agents autonomes, surveillance généralisée, emplois supprimés. Ces visions impressionnent. Mais sont-elles inéluctables ?]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Fri, 01 Jan 2027 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Google lance Gemini sur Mac : la contre-attaque tant attendue]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#gemini-mac-contre-attaque</link>
+    <guid isPermaLink="false">gemini-mac-contre-attaque</guid>
+    <description><![CDATA[Depuis le 19 mars 2026, une bêta privée de Gemini circule sur Mac. ChatGPT et Claude déjà natifs, Siri en retard. Apple emprunte l'IA de Google. La guerre des IA sur Mac est ouverte.]]></description>
+    <category>APPLE</category>
+    <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[L'IA pour PME : réfléchissez avant de cliquer]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#ia-pme-avant-cliquer</link>
+    <guid isPermaLink="false">ia-pme-avant-cliquer</guid>
+    <description><![CDATA[Sans cap précis, l'IA draine trésorerie et énergie. Mesurez vos victoires ou passez votre tour. Ce que David Gewirtz applique chez lui : cumul de microgains, zéro illusion.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Adobe Firefly Custom : ton style, ton IA, mais à qui appartient le résultat ?]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#adobe-firefly-custom-identite</link>
+    <guid isPermaLink="false">adobe-firefly-custom-identite</guid>
+    <description><![CDATA[Adobe permet d'entraîner une IA sur tes propres créations. Gain de productivité évident. Mais quand la génération devient plus rapide que le raisonnement, à qui appartient vraiment le résultat ?]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Firefox 2026 : reprendre le contrôle du web]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#firefox-2026-controle-web</link>
+    <guid isPermaLink="false">firefox-2026-controle-web</guid>
+    <description><![CDATA[Firefox défend une idée simple : laisser l'utilisateur décider. VPN intégré gratuit, Smart Window, API Sanitizer, vue fractionnée. En 2026, reprendre le contrôle de sa navigation n'est pas un luxe.]]></description>
+    <category>TECH</category>
+    <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Et si les applications disparaissaient ?]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#apps-disparaissent-carl-pei</link>
+    <guid isPermaLink="false">apps-disparaissent-carl-pei</guid>
+    <description><![CDATA[Pour Carl Pei, fondateur de Nothing, le smartphone de demain n'aura plus besoin d'icônes ni d'App Store. Une vision audacieuse qui séduit autant qu'elle interroge.]]></description>
+    <category>APPLE</category>
+    <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[WordPress libère le développement local]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#wordpress-playground</link>
+    <guid isPermaLink="false">wordpress-playground</guid>
+    <description><![CDATA[my.wordpress.net ouvre un WordPress complet dans le navigateur, sans installation. Lancé le 10 mars 2026, il repose sur WebAssembly. Idéal pour prototyper, pas pour déployer.]]></description>
+    <category>TECH</category>
+    <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[La DGFiP plaque Microsoft : Linux sur 95 000 postes]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#dgfip-linux</link>
+    <guid isPermaLink="false">dgfip-linux</guid>
+    <description><![CDATA[La DGFiP abandonne Windows pour Linux sur tous ses postes. Une claque magistrale aux géants de Redmond, et ça tombe à pic.]]></description>
+    <category>LINUX</category>
+    <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[OBS : le couteau suisse de la diffusion en direct]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#obs-streaming</link>
+    <guid isPermaLink="false">obs-streaming</guid>
+    <description><![CDATA[Gratuit, puissant, open-source. OBS est le logiciel qui transforme votre PC en regie televisuelle , que vous streamiez un conseil municipal ou une partie de jeu video.]]></description>
+    <category>TECH</category>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Intelligence artificielle et données personnelles : avons-nous vraiment consenti ?]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#ia-donnees-consentement</link>
+    <guid isPermaLink="false">ia-donnees-consentement</guid>
+    <description><![CDATA[L'IA ne fonctionne pas a l'electricite seule. Son carburant, ce sont nos données. Mais avons-nous reellement choisi de participer a ce système ?]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[ChatGPT et Service Public : ne pas subir, mais maitriser]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#chatgpt-service-public</link>
+    <guid isPermaLink="false">chatgpt-service-public</guid>
+    <description><![CDATA[L'arrivee de ChatGPT dans les collectivites n'est pas un simple outil en plus. C'est un changement de culture. La vraie question n'est pas : faut-il l'utiliser ? Mais comment l'utiliser intelligemment.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[La malhonnetete intellectuelle : quand le raccourci devient manipulation]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#malhonnetete-intellectuelle</link>
+    <guid isPermaLink="false">malhonnetete-intellectuelle</guid>
+    <description><![CDATA[Dans nos sociétés saturees d'informations, certains preferent les raccourcis cognitifs a la rigueur. Ce n'est pas qu'un problème de moralite. C'est un rapport complexe au pouvoir.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Anthropic Skilljar : la plateforme gratuite pour maîtriser Claude AI]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#anthropic-skilljar-formation</link>
+    <guid isPermaLink="false">anthropic-skilljar-formation</guid>
+    <description><![CDATA[Anthropic lance Skilljar, une plateforme d'apprentissage gratuite avec cours interactifs et certificats officiels pour maîtriser Claude AI, ses APIs et le protocole MCP.]]></description>
+    <category>TECH</category>
+    <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Claude Code : les leviers essentiels pour coder en 2026]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#claude-code-leviers-2026</link>
+    <guid isPermaLink="false">claude-code-leviers-2026</guid>
+    <description><![CDATA[Claude Code dépasse la génération de texte grâce à des outils dédiés : autorisations MCP, modes Plan et Thinking, fichiers Claude.md hiérarchiques et crochets de protection.]]></description>
+    <category>TECH</category>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Mon setup domotique HomeKit : points forts et points à améliorer]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#homekit-experience</link>
+    <guid isPermaLink="false">homekit-experience</guid>
+    <description><![CDATA[Un an de HomeKit complet : IKEA, Meross, Eve, Elgato, Matter. Le confort est réel, la facture lumière en baisse. Mais Siri reste capricieux et la simulation de présence ne trompe personne.]]></description>
+    <category>APPLE</category>
+    <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Sécuriser son NAS à la maison : la méthode WireGuard sur Freebox Pop]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#nas-wireguard-freebox</link>
+    <guid isPermaLink="false">nas-wireguard-freebox</guid>
+    <description><![CDATA[Laisser son NAS ouvert sur Internet, c'est jouer avec le feu. WireGuard sur Freebox Pop offre une alternative simple, rapide et totalement sous ton contrôle.]]></description>
+    <category>TECH</category>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Choisir sa voiture électrique : arrêter de chercher le "meilleur modèle", commencer par se comprendre soi]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#voiture-electrique-usage</link>
+    <guid isPermaLink="false">voiture-electrique-usage</guid>
+    <description><![CDATA[La vraie question n'est pas quelle est la meilleure voiture, mais pour quel conducteur. Le quotidien dicte le bon choix, pas le marché.]]></description>
+    <category>TESLA</category>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Des chasseurs primitifs a l'IA : nos outils ont toujours transforme notre facon de penser]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#evolution-humaine-ia</link>
+    <guid isPermaLink="false">evolution-humaine-ia</guid>
+    <description><![CDATA[Du silex a l'algorithme, la logique est la même : nos outils etendent nos capacités. Mais ils redefinissent aussi nos hierarchies, nos comportements, notre facon d'être au monde.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[L'authenticite face a nos contradictions : le vrai defi]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#authenticite-contradictions</link>
+    <guid isPermaLink="false">authenticite-contradictions</guid>
+    <description><![CDATA[Nous valorisons la transparence, l'ouverture, le changement. Pourtant, au premier inconfort, nous nous crispons. Ce decalage a un nom : la dissonance cognitive.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Pourquoi avons-nous autant de mal a admettre que nous ne savons pas ?]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#admettre-ne-pas-savoir</link>
+    <guid isPermaLink="false">admettre-ne-pas-savoir</guid>
+    <description><![CDATA[Avoir raison, c'est confortable. Mais derriere cette quete de vérité se cache souvent autre chose : le besoin d'avoir le dernier mot.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Zenclora OS : la petite distro qui refuse de rester sur le banc]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#zenclora-os</link>
+    <guid isPermaLink="false">zenclora-os</guid>
+    <description><![CDATA[Une Debian prête à l'emploi, un gestionnaire de paquets simplifié, et une question que la communauté Linux n'aime pas entendre.]]></description>
+    <category>LINUX</category>
+    <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Les 10 astuces Windows 11 que les professionnels ignorent]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#windows-11-astuces</link>
+    <guid isPermaLink="false">windows-11-astuces</guid>
+    <description><![CDATA[Testées sur Windows 24H2 en mars 2026. Title Bar Shake, Copilot Vision, compression 7z, Phone Link Webcam : 10 fonctions qui boostent la productivité et que la plupart ignorent.]]></description>
+    <category>TECH</category>
+    <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[L'iPhone comme infrastructure comportementale]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#iphone-infrastructure</link>
+    <guid isPermaLink="false">iphone-infrastructure</guid>
+    <description><![CDATA[iPhone combine communication, organisation et loisirs dans un objet compact. Sa promesse n'est pas seulement fonctionnelle : elle est comportementale.]]></description>
+    <category>APPLE</category>
+    <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Les trois fonctions Apple qui sauvent un projet en urgence]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#urgence-projet-apple</link>
+    <guid isPermaLink="false">urgence-projet-apple</guid>
+    <description><![CDATA[Le deadline approche à 23h. Handoff, presse-papiers universel et AirDrop inversent la situation en quelques minutes. Plan en trois étapes, validé en conditions réelles.]]></description>
+    <category>APPLE</category>
+    <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Mes extensions Firefox du moment (et pourquoi je les garde)]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#extensions-firefox</link>
+    <guid isPermaLink="false">extensions-firefox</guid>
+    <description><![CDATA[uBlock Origin, Ghostery, Privacy Badger, Facebook Container, Camelizer. Cinq extensions Firefox qui rendent la navigation plus fluide, plus sûre et plus maîtrisée au quotidien.]]></description>
+    <category>TECH</category>
+    <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Raccourcis : le superpouvoir iPhone que 90% ignorent]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#raccourcis-superpower-iphone</link>
+    <guid isPermaLink="false">raccourcis-superpower-iphone</guid>
+    <description><![CDATA[Préinstallée par Apple, Raccourcis cache 300 actions pour automatiser votre iPhone. Wi-Fi, batterie, HomeKit, Apple Intelligence : le superpouvoir que 90% ignorent.]]></description>
+    <category>APPLE</category>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[PrimTux : une solution française pour l'école numérique]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#primtux-linux-ecole</link>
+    <guid isPermaLink="false">primtux-linux-ecole</guid>
+    <description><![CDATA[PrimTux incarne l'excellence française en matière de numérique éducatif. Née en 2015 d'enseignants, cette distribution Linux est soutenue par le ministère de l'Éducation nationale.]]></description>
+    <category>LINUX</category>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Ton iPhone, ton assistant personnel (gratuit)]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#iphone-assistant-gratuit</link>
+    <guid isPermaLink="false">iphone-assistant-gratuit</guid>
+    <description><![CDATA[Un iPhone mal utilisé reste un gadget cher. Bien exploité, il structure ta journée. 10 applications gratuites, déjà installées, qui prouvent leur utilité au quotidien.]]></description>
+    <category>APPLE</category>
+    <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Le RGPD pour les Collectivites : prenez pas les données a la legere]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#rgpd-collectivites</link>
+    <guid isPermaLink="false">rgpd-collectivites</guid>
+    <description><![CDATA[RGPD, Google Forms, données personnelles : ce que chaque collectivite devrait savoir avant de cliquer sur Envoyer.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Et si l'IA peaufinait vos e-mails… sans jamais les endosser ?]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#ia-emails-sans-voix</link>
+    <guid isPermaLink="false">ia-emails-sans-voix</guid>
+    <description><![CDATA[Confier à l'IA la rédaction d'un message d'équipe. Une consigne sommaire et voilà un texte fluide, prêt à partir. Impeccable à l'écran. Mais en pratique, les choses se corsent.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Oui... mais non : on vous appellera]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#rejet-professionnel</link>
+    <guid isPermaLink="false">rejet-professionnel</guid>
+    <description><![CDATA[Ce petit mot de deux lettres qui peut vous faire sentir comme si vous ratiez le coche. Comprendre que ce non n'est pas une critique personnelle, c'est tout un art.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Le chemin de vie : l'art delicat de ne pas mentir sur son CV]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#cv-et-mensonges</link>
+    <guid isPermaLink="false">cv-et-mensonges</guid>
+    <description><![CDATA[Pourquoi certains se lancent-ils dans les embellissements creatifs sur leur CV ? Pour les mêmes raisons qu'on retouche une photo avant de la mettre sur un site de rencontre.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Jusqu'où tolérer la médiocrité ?]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#tolerance-mediocrite</link>
+    <guid isPermaLink="false">tolerance-mediocrite</guid>
+    <description><![CDATA[La bêtise en prime time, la médiocrité en boucle. On l'a tous acceptée. Mais là où ça coince, c'est quand on cesse de questionner.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Plus de coachs que de joueurs : l'invasion des gourous d'internet]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#coachs-internet</link>
+    <guid isPermaLink="false">coachs-internet</guid>
+    <description><![CDATA[Une espece nouvelle prospere a une vitesse effarante : les coachs en ligne. Ceux qui vous promettent 10 000 euros par mois, en pyjama, depuis votre canape.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Quand les étiquettes occultent les compétences]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#etiquettes-competences</link>
+    <guid isPermaLink="false">etiquettes-competences</guid>
+    <description><![CDATA[Nos jugements reposent souvent moins sur les faits que sur nos perceptions biaisées. Votre nom, votre parcours : tout est interprété à travers un prisme déformant.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+  </item>
+  <item>
+    <title><![CDATA[Les sociétés humaines : une cacophonie à accorder]]></title>
+    <link>https://shamsetdean.github.io/Anthropotech/#conflits-societes-humaines</link>
+    <guid isPermaLink="false">conflits-societes-humaines</guid>
+    <description><![CDATA[Conflits partout. Ressources rares, valeurs opposées, pouvoirs inégaux. Inévitable. Mais tolérer la dissonance ? Non. Il faut une résolution systématique.]]></description>
+    <category>HUMIAN</category>
+    <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+  </item>
+  </channel>
+</rss>
