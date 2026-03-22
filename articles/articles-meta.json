@@ -1,0 +1,290 @@
+[
+  {
+    "id": "gemini-mac-contre-attaque",
+    "titre": "Google lance Gemini sur Mac : la contre-attaque tant attendue",
+    "categorie": "apple",
+    "date": "27 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Depuis le 19 mars 2026, une bêta privée de Gemini circule sur Mac. ChatGPT et Claude déjà natifs, Siri en retard. Apple emprunte l'IA de Google. La guerre des IA sur Mac est ouverte."
+  },
+  {
+    "id": "ia-pme-avant-cliquer",
+    "titre": "L'IA pour PME : réfléchissez avant de cliquer",
+    "categorie": "humian",
+    "date": "26 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Sans cap précis, l'IA draine trésorerie et énergie. Mesurez vos victoires ou passez votre tour. Ce que David Gewirtz applique chez lui : cumul de microgains, zéro illusion."
+  },
+  {
+    "id": "adobe-firefly-custom-identite",
+    "titre": "Adobe Firefly Custom : ton style, ton IA, mais à qui appartient le résultat ?",
+    "categorie": "humian",
+    "date": "25 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Adobe permet d'entraîner une IA sur tes propres créations. Gain de productivité évident. Mais quand la génération devient plus rapide que le raisonnement, à qui appartient vraiment le résultat ?"
+  },
+  {
+    "id": "extensions-firefox",
+    "titre": "Mes extensions Firefox du moment (et pourquoi je les garde)",
+    "categorie": "tech",
+    "date": "4 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "uBlock Origin, Ghostery, Privacy Badger, Facebook Container, Camelizer. Cinq extensions Firefox qui rendent la navigation plus fluide, plus sûre et plus maîtrisée au quotidien."
+  },
+  {
+    "id": "windows-11-astuces",
+    "titre": "Les 10 astuces Windows 11 que les professionnels ignorent",
+    "categorie": "tech",
+    "date": "7 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Testées sur Windows 24H2 en mars 2026. Title Bar Shake, Copilot Vision, compression 7z, Phone Link Webcam : 10 fonctions qui boostent la productivité et que la plupart ignorent."
+  },
+  {
+    "id": "apps-disparaissent-carl-pei",
+    "titre": "Et si les applications disparaissaient ?",
+    "categorie": "apple",
+    "date": "23 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Pour Carl Pei, fondateur de Nothing, le smartphone de demain n'aura plus besoin d'icônes ni d'App Store. Une vision audacieuse qui séduit autant qu'elle interroge."
+  },
+  {
+    "id": "firefox-2026-controle-web",
+    "titre": "Firefox 2026 : reprendre le contrôle du web",
+    "categorie": "tech",
+    "date": "24 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Firefox défend une idée simple : laisser l'utilisateur décider. VPN intégré gratuit, Smart Window, API Sanitizer, vue fractionnée. En 2026, reprendre le contrôle de sa navigation n'est pas un luxe."
+  },
+  {
+    "id": "ia-futur-2026-prediction",
+    "titre": "2026 : les IA prédisent un futur dominé par l'intelligence artificielle. Vision réaliste ou exagérée ?",
+    "categorie": "humian",
+    "date": "1 janvier 2027",
+    "auteur": "Shams & Dean",
+    "resume": "ChatGPT, Gemini, Claude : on les a interrogées sur 2026. Agents autonomes, surveillance généralisée, emplois supprimés. Ces visions impressionnent. Mais sont-elles inéluctables ?"
+  },
+  {
+    "id": "urgence-projet-apple",
+    "titre": "Les trois fonctions Apple qui sauvent un projet en urgence",
+    "categorie": "apple",
+    "date": "5 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Le deadline approche à 23h. Handoff, presse-papiers universel et AirDrop inversent la situation en quelques minutes. Plan en trois étapes, validé en conditions réelles."
+  },
+  {
+    "id": "raccourcis-superpower-iphone",
+    "titre": "Raccourcis : le superpouvoir iPhone que 90% ignorent",
+    "categorie": "apple",
+    "date": "3 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Préinstallée par Apple, Raccourcis cache 300 actions pour automatiser votre iPhone. Wi-Fi, batterie, HomeKit, Apple Intelligence : le superpouvoir que 90% ignorent."
+  },
+  {
+    "id": "iphone-assistant-gratuit",
+    "titre": "Ton iPhone, ton assistant personnel (gratuit)",
+    "categorie": "apple",
+    "date": "1 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Un iPhone mal utilisé reste un gadget cher. Bien exploité, il structure ta journée. 10 applications gratuites, déjà installées, qui prouvent leur utilité au quotidien."
+  },
+  {
+    "id": "wordpress-playground",
+    "titre": "WordPress libère le développement local",
+    "categorie": "tech",
+    "date": "22 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "my.wordpress.net ouvre un WordPress complet dans le navigateur, sans installation. Lancé le 10 mars 2026, il repose sur WebAssembly. Idéal pour prototyper, pas pour déployer."
+  },
+  {
+    "id": "homekit-experience",
+    "titre": "Mon setup domotique HomeKit : points forts et points à améliorer",
+    "categorie": "apple",
+    "date": "14 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Un an de HomeKit complet : IKEA, Meross, Eve, Elgato, Matter. Le confort est réel, la facture lumière en baisse. Mais Siri reste capricieux et la simulation de présence ne trompe personne."
+  },
+  {
+    "id": "voiture-electrique-usage",
+    "titre": "Choisir sa voiture électrique : arrêter de chercher le \"meilleur modèle\", commencer par se comprendre soi",
+    "categorie": "tesla",
+    "date": "12 mars 2026",
+    "auteur": "Shams&Dean",
+    "resume": "La vraie question n'est pas quelle est la meilleure voiture, mais pour quel conducteur. Le quotidien dicte le bon choix, pas le marché."
+  },
+  {
+    "id": "nas-wireguard-freebox",
+    "titre": "Sécuriser son NAS à la maison : la méthode WireGuard sur Freebox Pop",
+    "categorie": "tech",
+    "date": "13 mars 2026",
+    "auteur": "Shams&Dean",
+    "resume": "Laisser son NAS ouvert sur Internet, c'est jouer avec le feu. WireGuard sur Freebox Pop offre une alternative simple, rapide et totalement sous ton contrôle."
+  },
+  {
+    "id": "claude-code-leviers-2026",
+    "titre": "Claude Code : les leviers essentiels pour coder en 2026",
+    "categorie": "tech",
+    "date": "15 mars 2026",
+    "auteur": "Shams&Dean",
+    "resume": "Claude Code dépasse la génération de texte grâce à des outils dédiés : autorisations MCP, modes Plan et Thinking, fichiers Claude.md hiérarchiques et crochets de protection."
+  },
+  {
+    "id": "anthropic-skilljar-formation",
+    "titre": "Anthropic Skilljar : la plateforme gratuite pour maîtriser Claude AI",
+    "categorie": "tech",
+    "date": "16 mars 2026",
+    "auteur": "Shams&Dean",
+    "resume": "Anthropic lance Skilljar, une plateforme d'apprentissage gratuite avec cours interactifs et certificats officiels pour maîtriser Claude AI, ses APIs et le protocole MCP."
+  },
+  {
+    "id": "iphone-infrastructure",
+    "titre": "L'iPhone comme infrastructure comportementale",
+    "categorie": "apple",
+    "date": "6 mars 2026",
+    "auteur": "Shams",
+    "resume": "iPhone combine communication, organisation et loisirs dans un objet compact. Sa promesse n'est pas seulement fonctionnelle : elle est comportementale."
+  },
+  {
+    "id": "zenclora-os",
+    "titre": "Zenclora OS : la petite distro qui refuse de rester sur le banc",
+    "categorie": "linux",
+    "date": "8 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Une Debian prête à l'emploi, un gestionnaire de paquets simplifié, et une question que la communauté Linux n'aime pas entendre."
+  },
+  {
+    "id": "chatgpt-service-public",
+    "titre": "ChatGPT et Service Public : ne pas subir, mais maitriser",
+    "categorie": "humian",
+    "date": "18 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "L'arrivee de ChatGPT dans les collectivites n'est pas un simple outil en plus. C'est un changement de culture. La vraie question n'est pas : faut-il l'utiliser ? Mais comment l'utiliser intelligemment."
+  },
+  {
+    "id": "rgpd-collectivites",
+    "titre": "Le RGPD pour les Collectivites : prenez pas les données a la legere",
+    "categorie": "humian",
+    "date": "21 mai 2024",
+    "auteur": "Shams & Dean",
+    "resume": "RGPD, Google Forms, données personnelles : ce que chaque collectivite devrait savoir avant de cliquer sur Envoyer."
+  },
+  {
+    "id": "obs-streaming",
+    "titre": "OBS : le couteau suisse de la diffusion en direct",
+    "categorie": "tech",
+    "date": "20 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Gratuit, puissant, open-source. OBS est le logiciel qui transforme votre PC en regie televisuelle , que vous streamiez un conseil municipal ou une partie de jeu video."
+  },
+  {
+    "id": "ia-donnees-consentement",
+    "titre": "Intelligence artificielle et données personnelles : avons-nous vraiment consenti ?",
+    "categorie": "humian",
+    "date": "19 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "L'IA ne fonctionne pas a l'electricite seule. Son carburant, ce sont nos données. Mais avons-nous reellement choisi de participer a ce système ?"
+  },
+  {
+    "id": "evolution-humaine-ia",
+    "titre": "Des chasseurs primitifs a l'IA : nos outils ont toujours transforme notre facon de penser",
+    "categorie": "humian",
+    "date": "11 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Du silex a l'algorithme, la logique est la même : nos outils etendent nos capacités. Mais ils redefinissent aussi nos hierarchies, nos comportements, notre facon d'être au monde."
+  },
+  {
+    "id": "authenticite-contradictions",
+    "titre": "L'authenticite face a nos contradictions : le vrai defi",
+    "categorie": "humian",
+    "date": "10 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Nous valorisons la transparence, l'ouverture, le changement. Pourtant, au premier inconfort, nous nous crispons. Ce decalage a un nom : la dissonance cognitive."
+  },
+  {
+    "id": "admettre-ne-pas-savoir",
+    "titre": "Pourquoi avons-nous autant de mal a admettre que nous ne savons pas ?",
+    "categorie": "humian",
+    "date": "9 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Avoir raison, c'est confortable. Mais derriere cette quete de vérité se cache souvent autre chose : le besoin d'avoir le dernier mot."
+  },
+  {
+    "id": "malhonnetete-intellectuelle",
+    "titre": "La malhonnetete intellectuelle : quand le raccourci devient manipulation",
+    "categorie": "humian",
+    "date": "17 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "Dans nos sociétés saturees d'informations, certains preferent les raccourcis cognitifs a la rigueur. Ce n'est pas qu'un problème de moralite. C'est un rapport complexe au pouvoir."
+  },
+  {
+    "id": "rejet-professionnel",
+    "titre": "Oui... mais non : on vous appellera",
+    "categorie": "humian",
+    "date": "7 mai 2024",
+    "auteur": "Shams & Dean",
+    "resume": "Ce petit mot de deux lettres qui peut vous faire sentir comme si vous ratiez le coche. Comprendre que ce non n'est pas une critique personnelle, c'est tout un art."
+  },
+  {
+    "id": "cv-et-mensonges",
+    "titre": "Le chemin de vie : l'art delicat de ne pas mentir sur son CV",
+    "categorie": "humian",
+    "date": "30 avril 2024",
+    "auteur": "Shams & Dean",
+    "resume": "Pourquoi certains se lancent-ils dans les embellissements creatifs sur leur CV ? Pour les mêmes raisons qu'on retouche une photo avant de la mettre sur un site de rencontre."
+  },
+  {
+    "id": "coachs-internet",
+    "titre": "Plus de coachs que de joueurs : l'invasion des gourous d'internet",
+    "categorie": "humian",
+    "date": "6 avril 2024",
+    "auteur": "Shams & Dean",
+    "resume": "Une espece nouvelle prospere a une vitesse effarante : les coachs en ligne. Ceux qui vous promettent 10 000 euros par mois, en pyjama, depuis votre canape."
+  },
+  {
+    "id": "conflits-societes-humaines",
+    "titre": "Les sociétés humaines : une cacophonie à accorder",
+    "categorie": "humian",
+    "date": "15 mars 2024",
+    "auteur": "Shams & Dean",
+    "resume": "Conflits partout. Ressources rares, valeurs opposées, pouvoirs inégaux. Inévitable. Mais tolérer la dissonance ? Non. Il faut une résolution systématique."
+  },
+  {
+    "id": "etiquettes-competences",
+    "titre": "Quand les étiquettes occultent les compétences",
+    "categorie": "humian",
+    "date": "22 mars 2024",
+    "auteur": "Shams & Dean",
+    "resume": "Nos jugements reposent souvent moins sur les faits que sur nos perceptions biaisées. Votre nom, votre parcours : tout est interprété à travers un prisme déformant."
+  },
+  {
+    "id": "tolerance-mediocrite",
+    "titre": "Jusqu'où tolérer la médiocrité ?",
+    "categorie": "humian",
+    "date": "10 avril 2024",
+    "auteur": "Shams & Dean",
+    "resume": "La bêtise en prime time, la médiocrité en boucle. On l'a tous acceptée. Mais là où ça coince, c'est quand on cesse de questionner."
+  },
+  {
+    "id": "ia-emails-sans-voix",
+    "titre": "Et si l'IA peaufinait vos e-mails… sans jamais les endosser ?",
+    "categorie": "humian",
+    "date": "20 mai 2024",
+    "auteur": "Shams & Dean",
+    "resume": "Confier à l'IA la rédaction d'un message d'équipe. Une consigne sommaire et voilà un texte fluide, prêt à partir. Impeccable à l'écran. Mais en pratique, les choses se corsent."
+  },
+  {
+    "id": "dgfip-linux",
+    "titre": "La DGFiP plaque Microsoft : Linux sur 95 000 postes",
+    "categorie": "linux",
+    "date": "21 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "La DGFiP abandonne Windows pour Linux sur tous ses postes. Une claque magistrale aux géants de Redmond, et ça tombe à pic."
+  },
+  {
+    "id": "primtux-linux-ecole",
+    "titre": "PrimTux : une solution française pour l'école numérique",
+    "categorie": "linux",
+    "date": "2 mars 2026",
+    "auteur": "Shams & Dean",
+    "resume": "PrimTux incarne l'excellence française en matière de numérique éducatif. Née en 2015 d'enseignants, cette distribution Linux est soutenue par le ministère de l'Éducation nationale."
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "id": "anthropic-skilljar-formation",
+  "titre": "Anthropic Skilljar : la plateforme gratuite pour maîtriser Claude AI",
+  "categorie": "tech",
+  "date": "16 mars 2026",
+  "auteur": "Shams&Dean",
+  "resume": "Anthropic lance Skilljar, une plateforme d'apprentissage gratuite avec cours interactifs et certificats officiels pour maîtriser Claude AI, ses APIs et le protocole MCP.",
+  "contenu": [
+    {
+      "type": "paragraphe",
+      "texte": "ChatGPT s'essouffle, Claude s'impose. Mais sans formation adaptée, les prompts restent rudimentaires. Anthropic répond avec Skilljar, une plateforme d'apprentissage gratuite. Cours interactifs, certificats officiels, accès illimité. Lancée début 2026, elle propose un contenu structuré, loin des tutoriels épars de YouTube."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Le problème ? Trop utiliser Claude sans méthode aboutit à des agents inefficaces et des API mal exploitées. Skilljar change la donne."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "À Paris, lors d'une session test de Claude 101, les Artefacts et Skills ont transformé un simple chat en assistant contextuel. Des analyses sectorielles récentes évoquent des gains de productivité significatifs pour les équipes formées aux outils IA. Les indépendants bénéficient du même avantage."
+    },
+    {
+      "type": "titre2",
+      "texte": "Des cours techniques pointus"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "\"Building with the Claude API\" offre 13 heures sur les requêtes, agents et workflows. \"Introduction au MCP\" détaille 10 heures de développement serveur Python et connexion d'outils. Claude Code in Action intègre Claude aux pratiques quotidiennes en 3 heures."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Pour tous : AI Fluency avec son cadre 4D assure une collaboration éthique. Des versions spécifiques existent pour étudiants, éducateurs et associations. Agent Skills permet de créer des instructions réutilisables. Un certificat valorise chaque parcours sur LinkedIn."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Sur Reddit, 3 000 upvotes saluent l'initiative. OpenAI facture son academy ; Anthropic démocratise l'expertise."
+    },
+    {
+      "type": "titre2",
+      "texte": "Pourquoi ignorer une telle opportunité ?"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Les cours sont en anglais, avec vidéos et textes complémentaires. Sécurité SOC 2 garantie, progression suivie sans lien au compte Claude. Idéal pour les entreprises."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "En 2026, MCP associé à Bedrock ou Vertex AI devient standard. Passer à côté laisse le champ libre aux experts formés. Bientôt, Claude automatisera vos processus. Ou non. Le choix vous appartient."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Pour les non-anglophones, activez simplement le traducteur automatique de votre navigateur pour suivre les cours en français sans encombre."
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Découvrez tous les cours gratuits sur anthropic.skilljar.com et passez au niveau supérieur."
+    },
+    {
+      "type": "titre2",
+      "texte": "Sources"
+    },
+    {
+      "type": "paragraphe",
+      "texte": "Anthropic Skilljar : anthropic.skilljar.com. Discussion Reddit sur les cours Anthropic, mars 2026."
+    }
+  ]
+}
