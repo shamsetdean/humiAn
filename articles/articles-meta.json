@@ -48,14 +48,6 @@
     "auteur": "Shams & Dean"
   },
   {
-    "id": "apps-disparaissent-carl-pei",
-    "titre": "Et si les applications disparaissaient ?",
-    "resume": "Pour Carl Pei, fondateur de Nothing, le smartphone de demain n'aura plus besoin d'icônes ni d'App Store. Une vision audacieuse qui séduit autant qu'elle interroge.",
-    "categorie": "apple",
-    "date": "23 mars 2026",
-    "auteur": "Shams & Dean"
-  },
-  {
     "id": "wordpress-playground",
     "titre": "WordPress libère le développement local",
     "resume": "my.wordpress.net ouvre un WordPress complet dans le navigateur, sans installation. Lancé le 10 mars 2026, il repose sur WebAssembly. Idéal pour prototyper, pas pour déployer.",
