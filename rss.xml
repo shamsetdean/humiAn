@@ -5,7 +5,7 @@
     <link>https://shamsetdean.github.io/Anthropotech/</link>
     <description>Explorer la manière dont les comportements et les innovations numériques façonnent notre quotidien.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Wed, 25 Mar 2026 22:32:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 22:51:51 +0000</lastBuildDate>
     <atom:link href="https://shamsetdean.github.io/Anthropotech/rss.xml" rel="self" type="application/rss+xml"/>
     <copyright>Copyright 2026 Guettaf Shams — CC BY-NC-ND 4.0</copyright>
     <managingEditor>Shams & Dean</managingEditor>
@@ -47,15 +47,6 @@
       <author>Shams &amp; Dean</author>
       <category>Hum{i}An</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/Anthropotech/article/proces-ecrans-algorithmes</guid>
-    </item>
-    <item>
-      <title>Adobe Firefly Custom : ton style, ton IA, mais à qui appartient le résultat ?</title>
-      <link>https://shamsetdean.github.io/Anthropotech/article/adobe-firefly-custom-identite</link>
-      <description>Adobe permet d'entraîner une IA sur tes propres créations. Gain de productivité évident. Mais quand la génération devient plus rapide que le raisonnement, à qui appartient vraiment le résultat ?</description>
-      <pubDate>Wed, 25 Mar 2026 08:00:00 +0000</pubDate>
-      <author>Shams &amp; Dean</author>
-      <category>Hum{i}An</category>
-      <guid isPermaLink="true">https://shamsetdean.github.io/Anthropotech/article/adobe-firefly-custom-identite</guid>
     </item>
     <item>
       <title>Windows, macOS, Linux — Trois visions du même métier</title>
@@ -191,6 +182,15 @@
       <author>Shams&amp;Dean</author>
       <category>Tech</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/Anthropotech/article/voiture-electrique-usage</guid>
+    </item>
+    <item>
+      <title>Des chasseurs primitifs a l'IA : nos outils ont toujours transforme notre facon de penser</title>
+      <link>https://shamsetdean.github.io/Anthropotech/article/evolution-humaine-ia</link>
+      <description>Du silex a l'algorithme, la logique est la même : nos outils etendent nos capacités. Mais ils redefinissent aussi nos hierarchies, nos comportements, notre facon d'être au monde.</description>
+      <pubDate>Wed, 11 Mar 2026 08:00:00 +0000</pubDate>
+      <author>Shams &amp; Dean</author>
+      <category>Hum{i}An</category>
+      <guid isPermaLink="true">https://shamsetdean.github.io/Anthropotech/article/evolution-humaine-ia</guid>
     </item>
   </channel>
 </rss>

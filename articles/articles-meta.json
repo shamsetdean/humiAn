@@ -32,14 +32,6 @@
     "auteur": "Shams & Dean"
   },
   {
-    "id": "adobe-firefly-custom-identite",
-    "titre": "Adobe Firefly Custom : ton style, ton IA, mais à qui appartient le résultat ?",
-    "resume": "Adobe permet d'entraîner une IA sur tes propres créations. Gain de productivité évident. Mais quand la génération devient plus rapide que le raisonnement, à qui appartient vraiment le résultat ?",
-    "categorie": "humian",
-    "date": "25 mars 2026",
-    "auteur": "Shams & Dean"
-  },
-  {
     "id": "windows-macos-linux",
     "titre": "Windows, macOS, Linux — Trois visions du même métier",
     "resume": "Choisir un système d'exploitation revient à trancher entre trois philosophies de travail. Windows impose sa polyvalence universelle. macOS mise sur une cohérence absolue. Linux offre une liberté totale, quitte à exiger de la patience.",
