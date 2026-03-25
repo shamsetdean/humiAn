@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+  Anthropotech · Lab — Page 404
+  Copyright (c) 2026 Guettaf Shams
+-->
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Page introuvable · Anthropotech · Lab</title>
+<meta name="robots" content="noindex">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #f5f3ef; --ink: #1a1f2e; --ink-mid: #5a6478;
+    --ink-dim: #9aa0ae; --accent: #7a1f2e; --line: #d8d2c8;
+    --surface: #eeeae3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1117; --ink: #e8e4dd; --ink-mid: #8b95a8; --ink-dim: #4a5568; --accent: #b5394d; --line: #252d3d; --surface: #161b24; }
+  }
+  body {
+    background: var(--bg); color: var(--ink);
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 300; min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center; padding: 2rem;
+  }
+  .wrap { max-width: 480px; }
+  .code {
+    font-family: Georgia, serif;
+    font-size: clamp(5rem, 20vw, 9rem);
+    font-weight: 300; color: var(--accent);
+    line-height: 1; letter-spacing: -.02em;
+    margin-bottom: 1rem;
+  }
+  .title {
+    font-family: Georgia, serif;
+    font-size: 1.4rem; font-weight: 300;
+    color: var(--ink); margin-bottom: .8rem;
+  }
+  .sub {
+    font-size: .88rem; color: var(--ink-dim);
+    line-height: 1.7; margin-bottom: 2rem;
+    font-style: italic;
+  }
+  .line {
+    width: 60px; height: 1px;
+    background: var(--accent);
+    margin: 1.5rem auto;
+  }
+  .btn {
+    display: inline-block;
+    font-family: system-ui, sans-serif;
+    font-size: .65rem; letter-spacing: .2em;
+    text-transform: uppercase; color: var(--bg);
+    background: var(--accent); border: none;
+    padding: .7rem 1.8rem; text-decoration: none;
+    transition: opacity .2s; cursor: pointer;
+  }
+  .btn:hover { opacity: .85; }
+  .eyebrow {
+    font-size: .6rem; letter-spacing: .3em;
+    text-transform: uppercase; color: var(--accent);
+    margin-bottom: 1.5rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Anthropotech · Lab</p>
+  <div class="code">404</div>
+  <div class="line"></div>
+  <h1 class="title">Page introuvable</h1>
+  <p class="sub">Cette page n'existe pas ou a été déplacée.<br>Retournez à l'accueil pour continuer votre lecture.</p>
+  <a class="btn" href="/Anthropotech/">Retour à l'accueil</a>
+</div>
+</body>
+</html>
