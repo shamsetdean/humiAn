@@ -24,6 +24,14 @@
     "auteur": "Shams & Dean"
   },
   {
+    "id": "proces-ecrans-algorithmes",
+    "titre": "Le procès des écrans : Meta confronté à ses plateformes",
+    "resume": "Le 25 mars 2026, un tribunal du Nouveau-Mexique a condamné Meta à 375 millions de dollars pour mise en danger de mineurs. Une décision historique qui interroge la conception des plateformes — et la responsabilité des foyers.",
+    "categorie": "humian",
+    "date": "26 mars 2026",
+    "auteur": "Shams & Dean"
+  },
+  {
     "id": "adobe-firefly-custom-identite",
     "titre": "Adobe Firefly Custom : ton style, ton IA, mais à qui appartient le résultat ?",
     "resume": "Adobe permet d'entraîner une IA sur tes propres créations. Gain de productivité évident. Mais quand la génération devient plus rapide que le raisonnement, à qui appartient vraiment le résultat ?",
