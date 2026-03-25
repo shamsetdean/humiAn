@@ -1,0 +1,32 @@
+name: Générer meta + RSS + Sitemap
+
+on:
+  push:
+    paths:
+      - 'articles/*.json'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Lancer generate.py
+        run: python3 generate.py
+
+      - name: Commit et push les fichiers générés
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add articles/articles-meta.json rss.xml sitemap.xml
+          git diff --staged --quiet || git commit -m "🤖 Auto-génération meta + RSS + sitemap"
+          git push
