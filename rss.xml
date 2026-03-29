@@ -5,7 +5,7 @@
     <link>https://shamsetdean.github.io/Anthropotech/</link>
     <description>Explorer la manière dont les comportements et les innovations numériques façonnent notre quotidien.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 26 Mar 2026 06:13:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 08:08:22 +0000</lastBuildDate>
     <atom:link href="https://shamsetdean.github.io/Anthropotech/rss.xml" rel="self" type="application/rss+xml"/>
     <copyright>Copyright 2026 Guettaf Shams — CC BY-NC-ND 4.0</copyright>
     <managingEditor>Shams & Dean</managingEditor>
@@ -20,6 +20,15 @@
       <author>Shams &amp; Dean</author>
       <category>Hum{i}An</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/Anthropotech/article/ia-futur-2026-prediction</guid>
+    </item>
+    <item>
+      <title>L'IA qui flatte trop nous rend elle plus égoïstes ?</title>
+      <link>https://shamsetdean.github.io/Anthropotech/article/ia-flatterie-stanford</link>
+      <description>Une étude Stanford publiée dans Science révèle que les assistants IA valident les comportements des utilisateurs 49 % plus souvent que les humains, même face à des mensonges ou des actions nuisibles. Un biais qui remodèle notre rapport à l'erreur, à l'autre, et à la vérité.</description>
+      <pubDate>Sun, 29 Mar 2026 08:00:00 +0000</pubDate>
+      <author>Shams &amp; Dean</author>
+      <category>Hum{i}An</category>
+      <guid isPermaLink="true">https://shamsetdean.github.io/Anthropotech/article/ia-flatterie-stanford</guid>
     </item>
     <item>
       <title>Gérer son image sur les réseaux sociaux : mon atelier de 2016 reste d'actualité en 2026</title>
@@ -182,15 +191,6 @@
       <author>Shams &amp; Dean</author>
       <category>OS</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/Anthropotech/article/homekit-experience</guid>
-    </item>
-    <item>
-      <title>Sécuriser son NAS à la maison : la méthode WireGuard sur Freebox Pop</title>
-      <link>https://shamsetdean.github.io/Anthropotech/article/nas-wireguard-freebox</link>
-      <description>Laisser son NAS ouvert sur Internet, c'est jouer avec le feu. WireGuard sur Freebox Pop offre une alternative simple, rapide et totalement sous ton contrôle.</description>
-      <pubDate>Fri, 13 Mar 2026 08:00:00 +0000</pubDate>
-      <author>Shams&amp;Dean</author>
-      <category>Tech</category>
-      <guid isPermaLink="true">https://shamsetdean.github.io/Anthropotech/article/nas-wireguard-freebox</guid>
     </item>
   </channel>
 </rss>
