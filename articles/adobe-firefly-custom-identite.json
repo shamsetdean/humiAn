@@ -4,58 +4,6 @@
   "auteur": "Shams & Dean",
   "date": "25 mars 2026",
   "resume": "Adobe permet d'entraîner une IA sur tes propres créations. Gain de productivité évident. Mais quand la génération devient plus rapide que le raisonnement, à qui appartient vraiment le résultat ?",
-  "contenu": [
-    {
-      "type": "paragraphe",
-      "texte": "Les modèles Firefly Custom d'Adobe ne sont pas une simple avancée technique. Ils mettent en scène une question plus ancienne : quand l'IA devient un prolongement de ton travail, et quand commence-t-elle à le remplacer ?"
-    },
-    {
-      "type": "titre2",
-      "texte": "Une IA qui apprend à signer ton style"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Adobe permet désormais d'entraîner un modèle génératif sur tes propres créations. Un studio peut lui montrer une série de visuels, une palette de couleurs, un style de lumière, des personnages récurrents. Le modèle retient ces schémas, puis génère de nouvelles images qui collent à ce style. En théorie, c'est un simple gain de productivité. En pratique, cela change la manière dont on définit le travail du créateur."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "À titre d'exemple illustratif : une agence de communication a utilisé Firefly Custom pour alimenter des moodboards de campagnes. En quelques heures, des centaines d'images ont été produites avec la même lumière, les mêmes textures, les mêmes typographies. Le client final ne distinguait pas ce qu'un humain avait décidé de ce que l'algorithme avait généré."
-    },
-    {
-      "type": "titre2",
-      "texte": "Une frontière qui se brouille"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "L'IA ne copie pas une image pixel par pixel. Elle extrait des schémas, des récurrences, des répétitions stylistiques, puis recompose. Le véritable problème réside dans ce que tu décides d'injecter dans le modèle. Si tu te limites à tes propres créations, tu étends ton univers. Si tu injectes des oeuvres protégées ou des styles très identifiables, tu entres dans une zone grise."
-    },
-    {
-      "type": "titre2",
-      "texte": "Une sécurité qui ne remplace pas la vigilance"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Adobe s'engage à couvrir les frais juridiques des clients pros utilisant Firefly en cas de poursuite pour violation de droits d'auteur, à condition de respecter certaines conditions contractuelles. Soyons lucides : cette garantie est un bouclier financier, pas une validation éthique. Elle ne change pas la question de fond : est-ce que ce que tu génères mérite encore d'être appelé ton travail ?"
-    },
-    {
-      "type": "titre2",
-      "texte": "Une question de posture, pas de technique"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Prenons le cas d'une illustratrice (exemple composite basé sur des témoignages recueillis) qui utilisait Firefly Custom pour explorer des variations de son style. Au début, elle aimait la fluidité : 50 compositions en quelques minutes. Puis elle s'est demandé ce qui resterait si quelqu'un récupérait sa base d'images pour entraîner un autre modèle. Son style, pouvait-il être réduit à un prompt ?"
-    },
-    {
-      "type": "titre2",
-      "texte": "Une frontière à fixer aujourd'hui"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "L'usage de Firefly Custom n'est ni automatiquement une forme de copie, ni une perte définitive de propriété. C'est une amplification de ce que tu lui donnes. Quand la génération devient plus rapide que le raisonnement, il devient difficile de dire honnêtement : c'est mon travail."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "La question la plus importante n'est pas seulement : est-ce que je peux utiliser Firefly Custom ? Elle est plutôt : est-ce que ce que je fais avec ce modèle mérite encore d'être appelé mon travail ? Sinon, il sera bientôt plus simple de dire : l'IA a fait le travail, et nous avons seulement appuyé sur un bouton."
-    }
-  ]
+  "contenu": "Les modèles Firefly Custom d'Adobe ne sont pas une simple avancée technique. Ils mettent en scène une question plus ancienne : quand l'IA devient un prolongement de ton travail, et quand commence-t-elle à le remplacer ?\n\n## Une IA qui apprend à signer ton style\n\nAdobe permet désormais d'entraîner un modèle génératif sur tes propres créations. Un studio peut lui montrer une série de visuels, une palette de couleurs, un style de lumière, des personnages récurrents. Le modèle retient ces schémas, puis génère de nouvelles images qui collent à ce style. En théorie, c'est un simple gain de productivité. En pratique, cela change la manière dont on définit le travail du créateur.\n\nÀ titre d'exemple illustratif : une agence de communication a utilisé Firefly Custom pour alimenter des moodboards de campagnes. En quelques heures, des centaines d'images ont été produites avec la même lumière, les mêmes textures, les mêmes typographies. Le client final ne distinguait pas ce qu'un humain avait décidé de ce que l'algorithme avait généré.\n\n## Une frontière qui se brouille\n\nL'IA ne copie pas une image pixel par pixel. Elle extrait des schémas, des récurrences, des répétitions stylistiques, puis recompose. Le véritable problème réside dans ce que tu décides d'injecter dans le modèle. Si tu te limites à tes propres créations, tu étends ton univers. Si tu injectes des oeuvres protégées ou des styles très identifiables, tu entres dans une zone grise.\n\n## Une sécurité qui ne remplace pas la vigilance\n\nAdobe s'engage à couvrir les frais juridiques des clients pros utilisant Firefly en cas de poursuite pour violation de droits d'auteur, à condition de respecter certaines conditions contractuelles. Soyons lucides : cette garantie est un bouclier financier, pas une validation éthique. Elle ne change pas la question de fond : est-ce que ce que tu génères mérite encore d'être appelé ton travail ?\n\n## Une question de posture, pas de technique\n\nPrenons le cas d'une illustratrice (exemple composite basé sur des témoignages recueillis) qui utilisait Firefly Custom pour explorer des variations de son style. Au début, elle aimait la fluidité : 50 compositions en quelques minutes. Puis elle s'est demandé ce qui resterait si quelqu'un récupérait sa base d'images pour entraîner un autre modèle. Son style, pouvait-il être réduit à un prompt ?\n\n## Une frontière à fixer aujourd'hui\n\nL'usage de Firefly Custom n'est ni automatiquement une forme de copie, ni une perte définitive de propriété. C'est une amplification de ce que tu lui donnes. Quand la génération devient plus rapide que le raisonnement, il devient difficile de dire honnêtement : c'est mon travail.\n\nLa question la plus importante n'est pas seulement : est-ce que je peux utiliser Firefly Custom ? Elle est plutôt : est-ce que ce que je fais avec ce modèle mérite encore d'être appelé mon travail ? Sinon, il sera bientôt plus simple de dire : l'IA a fait le travail, et nous avons seulement appuyé sur un bouton.",
+  "id": "adobe-firefly-custom-identite"
 }

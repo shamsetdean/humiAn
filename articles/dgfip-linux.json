@@ -1,57 +1,9 @@
 {
   "titre": "La DGFiP plaque Microsoft : Linux sur 95 000 postes",
-  "categorie": "linux",
+  "categorie": "os",
   "auteur": "Shams & Dean",
   "date": "21 mars 2026",
   "resume": "La DGFiP abandonne Windows pour Linux sur tous ses postes. Une claque magistrale aux géants de Redmond, et ça tombe à pic.",
-  "contenu": [
-    {
-      "type": "paragraphe",
-      "texte": "La DGFiP plaque Microsoft. Linux sur tous les postes. Une claque magistrale aux géants de Redmond, et ça tombe à pic."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Tomasz Blanc, le DSI, ne tourne pas autour du pot : Windows impose de changer les machines tous les quatre ans. Eux ? Déjà 100% open source sur les serveurs, Linux, PostgreSQL, Tomcat ,, avec Nubo, leur cloud franco-français. Les 95 000 agents basculent sur LibreOffice, point final à la suite Office."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Le vrai problème : on a trop traîné à larguer ces licences qui plombent les budgets. Imaginez les économies sur des années."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "## Un précédent qui tient"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Chez les gendarmes, 73 000 postes tournent sous GendBuntu depuis 2008, sans accroc majeur. La DGFiP suit, avec ses 5 000 IT affûtés. Matos qui vit six ans de plus, ransomwares en nette baisse, Windows, c'est la cible rêvée des hackers."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Et la souveraineté ? Fini les données fiscales aux États-Unis. On sous-estime à mort ce virage."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "## Ce qui reste à faire"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Les autres administrations traînent des pieds, scotchées à Microsoft par habitude. À Paris, contribuables, vos impôts gérés sans Big Tech ? C'est du concret."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Reste les agents accros à Excel : la transition va piquer. Pilote lancé ce mois de mars 2026, plus de bla-bla possible."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Et vous, toujours fidèle à Windows chez vous ?"
-    },
-    {
-      "type": "titre2",
-      "texte": "Sources"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "BuzzArena, Le fisc français envisage de migrer de Windows vers Linux : buzzarena.com/le-fisc-francais-envisage-de-migrer-de-windows-vers-linux-4550182. Generation-NT : generation-nt.com/actualites/fisc-choisit-linux-abandonne-windows-2072130. Frandroid : frandroid.com/marques/microsoft/3004473"
-    }
-  ]
+  "contenu": "La DGFiP plaque Microsoft. Linux sur tous les postes. Une claque magistrale aux géants de Redmond, et ça tombe à pic.\n\nTomasz Blanc, le DSI, ne tourne pas autour du pot : Windows impose de changer les machines tous les quatre ans. Eux ? Déjà 100% open source sur les serveurs, Linux, PostgreSQL, Tomcat , avec Nubo, leur cloud franco-français. Les 95 000 agents basculent sur LibreOffice, point final à la suite Office.\n\nLe vrai problème : on a trop traîné à larguer ces licences qui plombent les budgets. Imaginez les économies sur des années.\n\n## Un précédent qui tient\n\nChez les gendarmes, 73 000 postes tournent sous GendBuntu depuis 2008, sans accroc majeur. La DGFiP suit, avec ses 5 000 IT affûtés. Matos qui vit six ans de plus, ransomwares en nette baisse, Windows, c'est la cible rêvée des hackers.\n\nEt la souveraineté ? Fini les données fiscales aux États-Unis. On sous-estime à mort ce virage.\n\n## Ce qui reste à faire\n\nLes autres administrations traînent des pieds, scotchées à Microsoft par habitude. À Paris, contribuables, vos impôts gérés sans Big Tech ? C'est du concret.\n\nReste les agents accros à Excel : la transition va piquer. Pilote lancé ce mois de mars 2026, plus de bla-bla possible.\n\nEt vous, toujours fidèle à Windows chez vous ?\n\n## Sources\n\nBuzzArena, Le fisc français envisage de migrer de Windows vers Linux : buzzarena.com/le-fisc-francais-envisage-de-migrer-de-windows-vers-linux-4550182. Generation-NT : generation-nt.com/actualites/fisc-choisit-linux-abandonne-windows-2072130. Frandroid : frandroid.com/marques/microsoft/3004473",
+  "id": "dgfip-linux"
 }

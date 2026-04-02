@@ -4,50 +4,6 @@
   "auteur": "Shams & Dean",
   "date": "22 mars 2026",
   "resume": "my.wordpress.net ouvre un WordPress complet dans le navigateur, sans installation. Lancé le 10 mars 2026, il repose sur WebAssembly. Idéal pour prototyper, pas pour déployer.",
-  "contenu": [
-    {
-      "type": "paragraphe",
-      "texte": "my.wordpress.net ouvre un WordPress complet dans le navigateur. Tapez l'adresse, entrez un nom, et l'outil démarre. Lancé le 10 mars 2026 par WordPress.org, il repose sur Playground, leur technologie WebAssembly qui exécute PHP sans serveur."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Les données restent locales. 100 Mo de stockage dans le navigateur, rien n'est transmis aux serveurs. Vous explorez thèmes, plugins RSS ou un CRM léger assisté par IA. Idéal pour des prototypes ou notes personnelles. Publication publique ? Hors de question."
-    },
-    {
-      "type": "titre2",
-      "texte": "Le gain de temps saute aux yeux"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Les installations locales comme XAMPP ou MAMP exigent souvent des heures de configuration. Un développeur a rapporté une matinée perdue à résoudre des conflits sur macOS Sonoma. Ici, l'environnement est prêt en quelques secondes. Un designer parisien note un espace de test qui évite d'encombrer sa machine."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Les plugins disponibles dès le départ, comme un lecteur RSS fonctionnel hors ligne, facilitent les premiers essais. Pour un freelance préparant une maquette rapide, l'efficacité est immédiate."
-    },
-    {
-      "type": "titre2",
-      "texte": "Les limites bien réelles"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Théorie séduisante. Réalité contrainte : pas de domaine personnalisé, pas d'indexation Google. WordPress le précise : cet outil sert à expérimenter, non à déployer. Les performances varient, fluides sur Chrome, hésitantes sur Safari mobile."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Les novices y trouveront un terrain d'apprentissage. Les professionnels noteront les plafonds de stockage et de puissance."
-    },
-    {
-      "type": "titre2",
-      "texte": "Une démocratisation discrète"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Ce lancement bouscule une habitude : plus besoin d'installer un environnement lourd pour tester. Un étudiant en communication peut esquisser un portfolio en cinq minutes, sans contrainte technique. L'idée reçue selon laquelle les outils avancés restent élitistes prend du plomb dans l'aile."
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Que feriez-vous d'un tel espace ? Un prototype client ? Un carnet de recherches ? Les agences parisiennes pourraient l'adopter d'ici l'été."
-    }
-  ]
+  "contenu": "my.wordpress.net ouvre un WordPress complet dans le navigateur. Tapez l'adresse, entrez un nom, et l'outil démarre. Lancé le 10 mars 2026 par WordPress.org, il repose sur Playground, leur technologie WebAssembly qui exécute PHP sans serveur.\n\nLes données restent locales. 100 Mo de stockage dans le navigateur, rien n'est transmis aux serveurs. Vous explorez thèmes, plugins RSS ou un CRM léger assisté par IA. Idéal pour des prototypes ou notes personnelles. Publication publique ? Hors de question.\n\n## Le gain de temps saute aux yeux\n\nLes installations locales comme XAMPP ou MAMP exigent souvent des heures de configuration. Un développeur a rapporté une matinée perdue à résoudre des conflits sur macOS Sonoma. Ici, l'environnement est prêt en quelques secondes. Un designer parisien note un espace de test qui évite d'encombrer sa machine.\n\nLes plugins disponibles dès le départ, comme un lecteur RSS fonctionnel hors ligne, facilitent les premiers essais. Pour un freelance préparant une maquette rapide, l'efficacité est immédiate.\n\n## Les limites bien réelles\n\nThéorie séduisante. Réalité contrainte : pas de domaine personnalisé, pas d'indexation Google. WordPress le précise : cet outil sert à expérimenter, non à déployer. Les performances varient, fluides sur Chrome, hésitantes sur Safari mobile.\n\nLes novices y trouveront un terrain d'apprentissage. Les professionnels noteront les plafonds de stockage et de puissance.\n\n## Une démocratisation discrète\n\nCe lancement bouscule une habitude : plus besoin d'installer un environnement lourd pour tester. Un étudiant en communication peut esquisser un portfolio en cinq minutes, sans contrainte technique. L'idée reçue selon laquelle les outils avancés restent élitistes prend du plomb dans l'aile.\n\nQue feriez-vous d'un tel espace ? Un prototype client ? Un carnet de recherches ? Les agences parisiennes pourraient l'adopter d'ici l'été.",
+  "id": "wordpress-playground"
 }

@@ -4,58 +4,6 @@
   "auteur": "Shams & Dean",
   "date": "4 mars 2026",
   "resume": "uBlock Origin, Ghostery, Privacy Badger, Facebook Container, Camelizer. Cinq extensions Firefox qui rendent la navigation plus fluide, plus sûre et plus maîtrisée au quotidien.",
-  "contenu": [
-    {
-      "type": "paragraphe",
-      "texte": "Si tu cherches une base solide pour une navigation fluide et sécurisée, la combinaison d'extensions que j'utilise tient vraiment la route. Ça ne fait pas tout à ma place, mais ces extensions rendent la navigation beaucoup plus confortable et sûre."
-    },
-    {
-      "type": "titre2",
-      "texte": "uBlock Origin : la barre de base"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "uBlock Origin est la première extension que j'installe sur chaque profil Firefox. Elle bloque les publicités, les traqueurs lourds, et une grande partie des scripts inutiles qui ralentissent les pages. Le résultat est immédiat : les sites se chargent plus vite, il y a moins de clignotements et moins de pop-ups. Sans uBlock, je ne me sens tout simplement pas à l'aise."
-    },
-    {
-      "type": "titre2",
-      "texte": "Ghostery : traqueurs et cookies sous la loupe"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Après uBlock, Ghostery ajoute une couche de transparence supplémentaire. Elle identifie les traqueurs, les cookies, les pixels invisibles, et les pop-ups de consentement, et les affiche dans une interface claire. Tu comprends immédiatement à quel point tu es suivi entre différents sites. C'est ce qui m'a vraiment clarifié la différence entre un simple cookie et un filet qui suit mes clics partout."
-    },
-    {
-      "type": "titre2",
-      "texte": "Privacy Badger : l'anti-tracker automatique"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "uBlock et Ghostery couvrent déjà une grande partie des besoins. Privacy Badger vient compléter en travaillant en arrière-plan : elle apprend automatiquement quels domaines sont des traqueurs et les bloque dès qu'elle en est sûre. Beaucoup de scripts discrets se déplacent d'un site à l'autre sans que l'utilisateur s'en rende compte. Privacy Badger empêche précisément ces chaînes de suivi, sans nécessiter de configuration complexe."
-    },
-    {
-      "type": "titre2",
-      "texte": "Facebook Container : cloisonner les services"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Certains services sont omniprésents sur le web. Mais cela ne veut pas dire qu'ils doivent te suivre partout. Facebook Container, une extension officielle de Mozilla, place ces services dans un conteneur isolé. Les cookies, les publicités ciblées et le suivi inter-sites sont contenus dans cet espace dédié. Tu peux interagir sans que chaque action devienne un signal de suivi."
-    },
-    {
-      "type": "titre2",
-      "texte": "Camelizer : suivre les prix Amazon"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Pour ceux qui font des achats réguliers sur Amazon, Camelizer est très pratique. Elle se connecte à camelcamelcamel et affiche l'historique des prix directement sur la page du produit. Tu vois l'évolution des prix sur plusieurs mois, tu repères le prix le plus bas récent, et tu peux activer une alerte pour ne pas manquer une baisse. Ce n'est pas un outil indispensable, mais il évite les regrets après avoir acheté au prix fort."
-    },
-    {
-      "type": "titre2",
-      "texte": "La combinaison finale"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "uBlock Origin pour le blocage de base. Ghostery pour la vision détaillée des traqueurs. Privacy Badger pour le suivi automatique. Facebook Container pour l'isolement des services. Camelizer pour les prix Amazon. Cette configuration n'est pas parfaite, mais elle améliore vraiment l'expérience par rapport à un Firefox sans extensions. Simple au quotidien, avec un bon contrôle sur la vie privée."
-    }
-  ]
+  "contenu": "Si tu cherches une base solide pour une navigation fluide et sécurisée, la combinaison d'extensions que j'utilise tient vraiment la route. Ça ne fait pas tout à ma place, mais ces extensions rendent la navigation beaucoup plus confortable et sûre.\n\n## uBlock Origin : la barre de base\n\nuBlock Origin est la première extension que j'installe sur chaque profil Firefox. Elle bloque les publicités, les traqueurs lourds, et une grande partie des scripts inutiles qui ralentissent les pages. Le résultat est immédiat : les sites se chargent plus vite, il y a moins de clignotements et moins de pop-ups. Sans uBlock, je ne me sens tout simplement pas à l'aise.\n\n## Ghostery : traqueurs et cookies sous la loupe\n\nAprès uBlock, Ghostery ajoute une couche de transparence supplémentaire. Elle identifie les traqueurs, les cookies, les pixels invisibles, et les pop-ups de consentement, et les affiche dans une interface claire. Tu comprends immédiatement à quel point tu es suivi entre différents sites. C'est ce qui m'a vraiment clarifié la différence entre un simple cookie et un filet qui suit mes clics partout.\n\n## Privacy Badger : l'anti-tracker automatique\n\nuBlock et Ghostery couvrent déjà une grande partie des besoins. Privacy Badger vient compléter en travaillant en arrière-plan : elle apprend automatiquement quels domaines sont des traqueurs et les bloque dès qu'elle en est sûre. Beaucoup de scripts discrets se déplacent d'un site à l'autre sans que l'utilisateur s'en rende compte. Privacy Badger empêche précisément ces chaînes de suivi, sans nécessiter de configuration complexe.\n\n## Facebook Container : cloisonner les services\n\nCertains services sont omniprésents sur le web. Mais cela ne veut pas dire qu'ils doivent te suivre partout. Facebook Container, une extension officielle de Mozilla, place ces services dans un conteneur isolé. Les cookies, les publicités ciblées et le suivi inter-sites sont contenus dans cet espace dédié. Tu peux interagir sans que chaque action devienne un signal de suivi.\n\n## Camelizer : suivre les prix Amazon\n\nPour ceux qui font des achats réguliers sur Amazon, Camelizer est très pratique. Elle se connecte à camelcamelcamel et affiche l'historique des prix directement sur la page du produit. Tu vois l'évolution des prix sur plusieurs mois, tu repères le prix le plus bas récent, et tu peux activer une alerte pour ne pas manquer une baisse. Ce n'est pas un outil indispensable, mais il évite les regrets après avoir acheté au prix fort.\n\n## La combinaison finale\n\nuBlock Origin pour le blocage de base. Ghostery pour la vision détaillée des traqueurs. Privacy Badger pour le suivi automatique. Facebook Container pour l'isolement des services. Camelizer pour les prix Amazon. Cette configuration n'est pas parfaite, mais elle améliore vraiment l'expérience par rapport à un Firefox sans extensions. Simple au quotidien, avec un bon contrôle sur la vie privée.",
+  "id": "extensions-firefox"
 }

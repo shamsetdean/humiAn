@@ -4,42 +4,6 @@
   "auteur": "Shams & Dean",
   "date": "26 mars 2026",
   "resume": "Sans cap précis, l'IA draine trésorerie et énergie. Mesurez vos victoires ou passez votre tour. Cumul de microgains, zéro illusion.",
-  "contenu": [
-    {
-      "type": "paragraphe",
-      "texte": "Trop de dirigeants de PME voient l'IA comme un eldorado instantané. Soyons lucides. Sans cap précis, l'outil draine trésorerie et énergie. Mesurez vos victoires ou passez votre tour."
-    },
-    {
-      "type": "titre2",
-      "texte": "Gains immédiats, pas de mirages"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Prenons un exemple concret (cas fictif à titre illustratif) : un garagiste teste ChatGPT gratuit sur ses factures. L'analyse pointe un surcoût de 18% sur les pièces auto. Deux heures par semaine libérées. Son regard valide les chiffres. L'IA accélère. Point. Elle excelle sur vos corvées comptables. Jamais sur votre vision."
-    },
-    {
-      "type": "titre2",
-      "texte": "L'illusion du remplacement total"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "L'IA booste vos forces quand vous la pilotez, elle ne supprime pas vos postes. Codage d'un site web sans développeur en renfort ? Bugs en cascade. Optez plutôt pour Midjourney à 10 euros par mois : des visuels pros en 15 minutes contre deux heures auparavant. Vous filtrez l'essentiel."
-    },
-    {
-      "type": "titre2",
-      "texte": "Réalité française à intégrer"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "Le RGPD interdit l'upload léger de données clients. Bpifrance débloque jusqu'à 50 000 euros, mais sur dossiers chiffrés. Visez une tâche précise et répétitive. Réponses aux prospects. Facturation récurrente. Gratuit d'abord."
-    },
-    {
-      "type": "titre2",
-      "texte": "La métrique qui compte"
-    },
-    {
-      "type": "paragraphe",
-      "texte": "90 minutes mensuelles gagnées sur du marketing visuel légitiment l'effort. Une refonte globale reste une chimère. Le véritable problème réside dans l'absence de mesure. Une réduction de 30% sur le temps consacré aux emails clients suffit à transformer votre quotidien. Quelle tâche traquez-vous en premier ?"
-    }
-  ]
+  "contenu": "Trop de dirigeants de PME voient l'IA comme un eldorado instantané. Soyons lucides. Sans cap précis, l'outil draine trésorerie et énergie. Mesurez vos victoires ou passez votre tour.\n\n## Gains immédiats, pas de mirages\n\nPrenons un exemple concret (cas fictif à titre illustratif) : un garagiste teste ChatGPT gratuit sur ses factures. L'analyse pointe un surcoût de 18% sur les pièces auto. Deux heures par semaine libérées. Son regard valide les chiffres. L'IA accélère. Point. Elle excelle sur vos corvées comptables. Jamais sur votre vision.\n\n## L'illusion du remplacement total\n\nL'IA booste vos forces quand vous la pilotez, elle ne supprime pas vos postes. Codage d'un site web sans développeur en renfort ? Bugs en cascade. Optez plutôt pour Midjourney à 10 euros par mois : des visuels pros en 15 minutes contre deux heures auparavant. Vous filtrez l'essentiel.\n\n## Réalité française à intégrer\n\nLe RGPD interdit l'upload léger de données clients. Bpifrance débloque jusqu'à 50 000 euros, mais sur dossiers chiffrés. Visez une tâche précise et répétitive. Réponses aux prospects. Facturation récurrente. Gratuit d'abord.\n\n## La métrique qui compte\n\n90 minutes mensuelles gagnées sur du marketing visuel légitiment l'effort. Une refonte globale reste une chimère. Le véritable problème réside dans l'absence de mesure. Une réduction de 30% sur le temps consacré aux emails clients suffit à transformer votre quotidien. Quelle tâche traquez-vous en premier ?",
+  "id": "ia-pme-avant-cliquer"
 }
