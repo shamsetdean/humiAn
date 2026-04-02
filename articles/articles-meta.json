@@ -91,7 +91,7 @@
     "id": "dgfip-linux",
     "titre": "La DGFiP plaque Microsoft : Linux sur 95 000 postes",
     "resume": "La DGFiP abandonne Windows pour Linux sur tous ses postes. Une claque magistrale aux géants de Redmond, et ça tombe à pic.",
-    "categorie": "linux",
+    "categorie": "os",
     "date": "21 mars 2026",
     "auteur": "Shams & Dean"
   },
@@ -141,7 +141,7 @@
     "resume": "Anthropic lance Skilljar, une plateforme d'apprentissage gratuite avec cours interactifs et certificats officiels pour maîtriser Claude AI, ses APIs et le protocole MCP.",
     "categorie": "tech",
     "date": "16 mars 2026",
-    "auteur": "Shams&Dean"
+    "auteur": "Shams & Dean"
   },
   {
     "id": "claude-code-leviers-2026",
@@ -149,7 +149,7 @@
     "resume": "Claude Code dépasse la génération de texte grâce à des outils dédiés : autorisations MCP, modes Plan et Thinking, fichiers Claude.md hiérarchiques et crochets de protection.",
     "categorie": "tech",
     "date": "15 mars 2026",
-    "auteur": "Shams&Dean"
+    "auteur": "Shams & Dean"
   },
   {
     "id": "homekit-experience",
@@ -165,15 +165,15 @@
     "resume": "Laisser son NAS ouvert sur Internet, c'est jouer avec le feu. WireGuard sur Freebox Pop offre une alternative simple, rapide et totalement sous ton contrôle.",
     "categorie": "tech",
     "date": "13 mars 2026",
-    "auteur": "Shams&Dean"
+    "auteur": "Shams & Dean"
   },
   {
     "id": "voiture-electrique-usage",
     "titre": "Choisir sa voiture électrique : arrêter de chercher le \"meilleur modèle\", commencer par se comprendre soi",
     "resume": "La vraie question n'est pas quelle est la meilleure voiture, mais pour quel conducteur. Le quotidien dicte le bon choix, pas le marché.",
-    "categorie": "tesla",
+    "categorie": "tech",
     "date": "12 mars 2026",
-    "auteur": "Shams&Dean"
+    "auteur": "Shams & Dean"
   },
   {
     "id": "evolution-humaine-ia",
@@ -203,7 +203,7 @@
     "id": "zenclora-os",
     "titre": "Zenclora OS : la petite distro qui refuse de rester sur le banc",
     "resume": "Une Debian prête à l'emploi, un gestionnaire de paquets simplifié, et une question que la communauté Linux n'aime pas entendre.",
-    "categorie": "linux",
+    "categorie": "os",
     "date": "8 mars 2026",
     "auteur": "Shams & Dean"
   },
@@ -221,7 +221,7 @@
     "resume": "iPhone combine communication, organisation et loisirs dans un objet compact. Sa promesse n'est pas seulement fonctionnelle : elle est comportementale.",
     "categorie": "apple",
     "date": "6 mars 2026",
-    "auteur": "Shams"
+    "auteur": "Shams & Dean"
   },
   {
     "id": "urgence-projet-apple",
@@ -251,7 +251,7 @@
     "id": "primtux-linux-ecole",
     "titre": "PrimTux : une solution française pour l'école numérique",
     "resume": "PrimTux incarne l'excellence française en matière de numérique éducatif. Née en 2015 d'enseignants, cette distribution Linux est soutenue par le ministère de l'Éducation nationale.",
-    "categorie": "linux",
+    "categorie": "os",
     "date": "2 mars 2026",
     "auteur": "Shams & Dean"
   },

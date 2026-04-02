@@ -5,7 +5,7 @@
     <link>https://shamsetdean.github.io/humiAn/</link>
     <description>Explorer la manière dont les comportements et les innovations numériques façonnent notre quotidien.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 02 Apr 2026 09:36:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 12:17:46 +0000</lastBuildDate>
     <atom:link href="https://shamsetdean.github.io/humiAn/rss.xml" rel="self" type="application/rss+xml"/>
     <copyright>Copyright 2026 Guettaf Shams — CC BY-NC-ND 4.0</copyright>
     <managingEditor>Shams &amp; Dean</managingEditor>
@@ -170,7 +170,7 @@
       <link>https://shamsetdean.github.io/humiAn/?article=anthropic-skilljar-formation</link>
       <description>Anthropic lance Skilljar, une plateforme d'apprentissage gratuite avec cours interactifs et certificats officiels pour maîtriser Claude AI, ses APIs et le protocole MCP.</description>
       <pubDate>Mon, 16 Mar 2026 08:00:00 +0000</pubDate>
-      <author>Shams&amp;Dean</author>
+      <author>Shams &amp; Dean</author>
       <category>Tech</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=anthropic-skilljar-formation</guid>
     </item>
@@ -179,7 +179,7 @@
       <link>https://shamsetdean.github.io/humiAn/?article=claude-code-leviers-2026</link>
       <description>Claude Code dépasse la génération de texte grâce à des outils dédiés : autorisations MCP, modes Plan et Thinking, fichiers Claude.md hiérarchiques et crochets de protection.</description>
       <pubDate>Sun, 15 Mar 2026 08:00:00 +0000</pubDate>
-      <author>Shams&amp;Dean</author>
+      <author>Shams &amp; Dean</author>
       <category>Tech</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=claude-code-leviers-2026</guid>
     </item>
