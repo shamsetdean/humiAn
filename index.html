@@ -482,6 +482,10 @@ nav { display:none; }
   display:grid; grid-template-columns:repeat(auto-fill,minmax(310px,1fr));
   border:1px solid var(--line);
 }
+
+/* ── HIGHLIGHT RECHERCHE ── */
+.hl-match { background: rgba(122,31,46,.13); border-radius: 2px; padding: 0 1px; font-style: normal; }
+[data-theme="dark"] .hl-match { background: rgba(181,57,77,.22); }
 .article-card {
   padding:2rem; border-right:1px solid var(--line); border-bottom:1px solid var(--line);
   cursor:none; transition:background .3s; animation:fadeUp .6s ease both;
@@ -1940,6 +1944,10 @@ body.lecture-mode #read-progress { display: block; }
   transform: translate(0, 0);
 }
 
+
+/* ── ANIMATION SCROLL CARTES ── */
+.article-card.card-anim { opacity: 0; transform: translateY(16px); }
+.article-card.card-anim.card-visible { opacity: 1; transform: translateY(0); transition: opacity .4s ease, transform .4s ease; }
 </style>
 
 <script type="application/ld+json">
@@ -2025,7 +2033,7 @@ body.lecture-mode #read-progress { display: block; }
 
     <div class="hero-title-row">
       <h1>Hum<em>{i}</em>An</h1>
-      <span class="hero-total"><em id="count-total">40</em> articles</span>
+      <span class="hero-total"><em id="count-total">–</em> articles</span>
     </div>
     <p class="hero-sub">Explorer la mani&egrave;re dont les comportements et les innovations num&eacute;riques fa&ccedil;onnent notre quotidien.</p>
     <div class="hero-stats">
@@ -2696,8 +2704,8 @@ function renderArticles(articles){
       <span class="article-card-num">${String(i+1).padStart(2,'0')}</span>
       <button type="button" class="fav-btn" onclick="toggleFavorite(event, '${a.id||a._id}')" aria-label="Favori">${favorites.includes(a.id||a._id)?'♥':'♡'}</button>
       <div class="article-cat">${catLabels[a.categorie]||a.categorie}</div>
-      <div class="article-title">${formatTitle(a.titre)}</div>
-      <div class="article-excerpt">${a.resume||''}</div>
+      <div class="article-title">${hlSearch(formatTitle(a.titre))}</div>
+      <div class="article-excerpt">${hlSearch(a.resume||'')}</div>
       <div class="article-meta">
         <span>${a.auteur||'Anthropotech'}</span>
         <span class="article-readtime">${readTime(a.contenu)}</span>
@@ -2710,6 +2718,20 @@ function renderArticles(articles){
   });
   applyReadHistory();
   applyFavorites();
+  // Animation scroll IntersectionObserver
+  const cardObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('card-visible');
+        cardObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.article-card').forEach((c,i) => {
+    c.classList.add('card-anim');
+    c.style.transitionDelay = Math.min(i * 0.05, 0.4) + 's';
+    cardObserver.observe(c);
+  });
   // Barre de progression lecture globale
   if(allArticles.length > 0){
     const readCount = readHistory.filter(id => allArticles.some(a => (a.id||a._id) === id)).length;
@@ -2824,7 +2846,7 @@ function setGridMode(mode){
 // Appliquer au chargement
 (function(){
   const saved = localStorage.getItem('grid-mode');
-  if(saved === 'list') setTimeout(()=>setGridMode('list'), 100);
+  if(saved === 'list') setTimeout(()=>setGridMode('list'), 150);
 })();
 
 // ── STATISTIQUES DE LECTURE (localStorage, 0 tracker) ──
@@ -3057,8 +3079,8 @@ function renderFavoris(){
     <div class="article-card favorited" onclick="openArticle(${allArticles.indexOf(a)})" role="listitem" tabindex="0" aria-label="${a.titre}" data-idx="${allArticles.indexOf(a)}">
       <button type="button" class="fav-btn" onclick="toggleFavorite(event,'${a.id||a._id}')" aria-label="Retirer des favoris">♥</button>
       <div class="article-cat">${catLabels[a.categorie]||a.categorie}</div>
-      <div class="article-title">${formatTitle(a.titre)}</div>
-      <div class="article-excerpt">${a.resume||''}</div>
+      <div class="article-title">${hlSearch(formatTitle(a.titre))}</div>
+      <div class="article-excerpt">${hlSearch(a.resume||'')}</div>
       <div class="article-meta">
         <span>${a.auteur||'Anthropotech'}</span>
         <span class="article-readtime">${readTime(a.contenu)}</span>
@@ -3093,6 +3115,21 @@ document.addEventListener('contextmenu',e=>e.preventDefault());
 document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&['c','C','u','U','a','A','s','S','p','P'].includes(e.key))e.preventDefault();});
 document.addEventListener('selectstart',e=>{if(e.target.closest('.article-full-body'))e.preventDefault();});
 
+
+// ── NAVIGATION CLAVIER ← → ENTRE ARTICLES ──
+document.addEventListener('keydown', e => {
+  if(e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+  const tag = document.activeElement.tagName;
+  if(tag === 'INPUT' || tag === 'TEXTAREA') return;
+  const articleView = document.getElementById('view-article');
+  if(!articleView || !articleView.classList.contains('active')) return;
+  if(!currentArticle) return;
+  const idx = allArticles.findIndex(a => (a.id||a._id) === (currentArticle.id||currentArticle._id));
+  if(idx === -1) return;
+  if(e.key === 'ArrowLeft' && idx > 0) openArticle(idx - 1);
+  if(e.key === 'ArrowRight' && idx < allArticles.length - 1) openArticle(idx + 1);
+});
+
 /* ── RACCOURCI CLAVIER RECHERCHE : touche / ── */
 document.addEventListener('keydown', e => {
   if(e.key !== '/') return;
@@ -3109,6 +3146,14 @@ document.addEventListener('keydown', e => {
   }, view.classList.contains('active') ? 0 : 300);
 });
 
+
+// ── HIGHLIGHT RECHERCHE ──
+function hlSearch(text){
+  if(!searchQuery || !text) return text;
+  const escaped = searchQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return text.replace(new RegExp('(' + escaped + ')', 'gi'), '<em class="hl-match">$1</em>');
+}
+
 // ── RECHERCHE ──
 let searchQuery = '';
 function searchArticles(q){
@@ -3121,6 +3166,41 @@ function searchArticles(q){
   } else if(count) {
     count.textContent = '';
   }
+}
+
+
+// ── RSS DYNAMIQUE ──
+function generateRSS(){
+  const catLabelsRSS = {'tech':'Tech','os':'OS','humian':'Hum{i}An','apple':'Apple','linux':'Linux'};
+  const items = allArticles.slice(0, 20).map(a => {
+    const url = 'https://shamsetdean.github.io/humiAn/?article=' + (a.id||a._id||'');
+    return `  <item>
+    <title><![CDATA[${a.titre}]]></title>
+    <link>${url}</link>
+    <guid>${url}</guid>
+    <pubDate>${a.date ? new Date(a.date.split('/').reverse().join('-')).toUTCString() : new Date().toUTCString()}</pubDate>
+    <category>${catLabelsRSS[a.categorie]||a.categorie}</category>
+    <author>shamsetdean@gmail.com (${a.auteur||'Shams Guettaf'})</author>
+    <description><![CDATA[${a.resume||''}]]></description>
+  </item>`;
+  }).join('\n');
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Hum{i}An · Anthropotech Lab</title>
+  <link>https://shamsetdean.github.io/humiAn/</link>
+  <description>Explorer la manière dont les comportements et les innovations numériques façonnent notre quotidien.</description>
+  <language>fr-FR</language>
+  <atom:link href="https://shamsetdean.github.io/humiAn/rss.xml" rel="self" type="application/rss+xml"/>
+${items}
+</channel>
+</rss>`;
+  const blob = new Blob([xml], {type:'application/rss+xml'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'rss.xml';
+  a.click();
+  showToast('RSS téléchargé — remplacez rss.xml sur GitHub');
 }
 
 // ── NOTIFICATIONS ──
