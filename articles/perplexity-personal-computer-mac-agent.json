@@ -1,0 +1,114 @@
+{
+  "id": "perplexity-personal-computer-mac-agent",
+  "titre": "Perplexity veut transformer le Mac en agent IA",
+  "soustitre": "Avec Personal Computer, Perplexity franchit la ligne entre répondre et agir. Ce n'est pas une mise à jour. C'est un changement de paradigme.",
+  "categorie": "tech",
+  "date": "2026-04-19",
+  "auteur": "Shams Guettaf",
+  "readTime": "6 min",
+  "tags": [
+    "IA",
+    "Mac",
+    "Perplexity",
+    "agent",
+    "automatisation"
+  ],
+  "resume": "Perplexity lance Personal Computer sur Mac : un agent IA capable d'agir sur le système, pas seulement de répondre. Une évolution qui pose autant de questions qu'elle apporte de promesses.",
+  "contenu": [
+    {
+      "type": "paragraph",
+      "texte": "Depuis le 17 avril 2026, Perplexity propose sur Mac une version de son application pensée pour aller plus loin qu'un simple moteur de réponse. Personal Computer, c'est son nom, veut transformer le Mac en espace d'action : manipulation de fichiers locaux, interaction avec les applications ouvertes, exécution de tâches en continu. Pas une fenêtre de chat de plus. Un agent qui opère."
+    },
+    {
+      "type": "titre2",
+      "texte": "La rupture savoir/faire"
+    },
+    {
+      "type": "paragraph",
+      "texte": "Jusqu'ici, la quasi-totalité des assistants IA fonctionnaient sur un principe simple : on pose une question, on obtient une réponse, on revient au travail manuel. Ce modèle a une limite évidente. Il n'efface pas la friction entre comprendre et faire. Il la déplace juste après la réponse."
+    },
+    {
+      "type": "paragraph",
+      "texte": "Personal Computer veut franchir cette ligne. L'utilisateur formule une intention, l'agent l'exécute. Organiser des fichiers, préparer un message, retrouver un document dans le système sans passer par une succession de clics. Dit comme ça, cela semble logique. En réalité, c'est un déplacement de responsabilité. L'outil ne conseille plus. Il agit."
+    },
+    {
+      "type": "titre2",
+      "texte": "Pourquoi le Mac, et pourquoi maintenant"
+    },
+    {
+      "type": "paragraph",
+      "texte": "Le choix du Mac n'est pas anodin. La base d'utilisateurs Apple est, en moyenne, plus orientée vers des usages professionnels où le temps de traitement des tâches répétitives représente un coût réel. Un Mac mini allumé en permanence, sobre en consommation, peut littéralement devenir un poste d'agent local disponible à tout moment. Perplexity a clairement pensé à ce cas d'usage."
+    },
+    {
+      "type": "paragraph",
+      "texte": "Il y a aussi un aspect symbolique. Le Mac est associé à une expérience maîtrisée, fluide, cohérente. Y faire entrer un agent capable d'intervenir sur le système, c'est introduire l'automatisation dans un environnement où l'utilisateur a l'habitude de tout contrôler. Cette tension n'est pas un défaut de conception. C'est précisément le terrain sur lequel Perplexity joue."
+    },
+    {
+      "type": "titre2",
+      "texte": "Ce que \"intervenir\" change vraiment"
+    },
+    {
+      "type": "paragraph",
+      "texte": "Répondre, c'est rester dans le champ de la parole. Intervenir, c'est entrer dans le champ de l'action. La différence paraît subtile. Elle ne l'est pas."
+    },
+    {
+      "type": "paragraph",
+      "texte": "Dès qu'un système peut naviguer dans des fichiers, ouvrir des applications ou enchaîner des opérations, il n'est plus un gadget périphérique. Il devient un acteur du poste de travail. Et à ce moment là, la question de l'erreur change de nature. Une mauvaise réponse dans un chat, on la corrige en une ligne. Une mauvaise action sur un fichier, on la répare avec du temps et parfois des dégâts."
+    },
+    {
+      "type": "paragraph",
+      "texte": "C'est précisément pour cela que cette évolution mérite d'être regardée avec sérieux, ni avec enthousiasme naïf ni avec rejet systématique."
+    },
+    {
+      "type": "titre2",
+      "texte": "Les deux lectures, les deux risques"
+    },
+    {
+      "type": "paragraph",
+      "texte": "Les défenseurs de ce modèle voient un gain de temps évident pour les professionnels qui passent leur journée à répéter les mêmes séquences de tâches. Les indépendants, les créateurs de contenu, les équipes en sous-effectif chronique. Pour eux, un agent qui exécute à la demande sans demander à être guidé pas à pas est une vraie proposition de valeur."
+    },
+    {
+      "type": "paragraph",
+      "texte": "Les sceptiques, eux, pointent une dépendance nouvelle. Plus l'agent fait à la place, moins l'utilisateur comprend ce qui se passe sous le capot. Et cette distance compte. Pas pour des raisons philosophiques abstraites, mais pour des raisons pratiques : quand l'agent se trompe, encore faut-il s'en rendre compte."
+    },
+    {
+      "type": "paragraph",
+      "texte": "Les deux lectures sont justes. Elles ne s'excluent pas."
+    },
+    {
+      "type": "titre2",
+      "texte": "La vraie bataille n'est pas là où on la croit"
+    },
+    {
+      "type": "paragraph",
+      "texte": "On parle souvent d'IA comme si la compétition se jouait uniquement entre modèles, entre benchmarks, entre paramètres. C'est une lecture incomplète. La bataille se joue aussi dans l'interface, dans la manière dont l'intelligence s'insère dans un flux de travail réel, dans le passage entre une intention formulée et une action accomplie."
+    },
+    {
+      "type": "paragraph",
+      "texte": "Perplexity l'a compris. Personal Computer n'est pas une démonstration technologique. C'est une hypothèse sur le futur du logiciel : peut-on remplacer une partie du travail logiciel répétitif par une couche d'intelligence qui exécute à la demande, sans interface graphique traditionnelle ? Si cette logique s'installe sur Mac, elle migrera vers d'autres environnements. C'est mécanique."
+    },
+    {
+      "type": "titre2",
+      "texte": "La question qui restera ouverte"
+    },
+    {
+      "type": "paragraph",
+      "texte": "Perplexity joue gros. Si Personal Computer tient ses promesses, l'adoption sera rapide dans les milieux professionnels qui ont déjà intégré l'IA dans leur quotidien. S'il dysfonctionne, s'il agit là où on ne lui a rien demandé, s'il produit des erreurs difficiles à tracer, il sera perçu comme une démonstration brillante mais fragile. Dans ce domaine, l'utilité ne pardonne pas l'approximation."
+    },
+    {
+      "type": "paragraph",
+      "texte": "La vraie question n'est donc pas de savoir si cet agent est impressionnant. Il l'est, et les premiers retours depuis le lancement du 17 avril semblent le confirmer. La vraie question est celle-ci : jusqu'où accepte-t-on de laisser une IA entrer dans ses gestes quotidiens sans en perdre la maîtrise ? Personne n'a encore de réponse définitive. Et c'est peut-être là le seul point sur lequel tout le monde s'accorde."
+    },
+    {
+      "type": "sources",
+      "texte": "Sources : https://www.perplexity.ai/help-center/en/articles/14659663-what-is-personal-computer · https://www.perplexity.ai/hub/blog/introducing-perplexity-computer · https://www.perplexity.ai/hub/blog/personal-computer-is-here · https://www.perplexity.ai/changelog/personal-computer-on-mac-launch-and-computer-updates---april-17-2026 · https://www.theverge.com/ai-artificial-intelligence/893536/perplexitys-personal-computer-turns-your-spare-mac-into-an-ai-agent",
+      "items": [
+        "https://www.perplexity.ai/help-center/en/articles/14659663-what-is-personal-computer",
+        "https://www.perplexity.ai/hub/blog/introducing-perplexity-computer",
+        "https://www.perplexity.ai/hub/blog/personal-computer-is-here",
+        "https://www.perplexity.ai/changelog/personal-computer-on-mac-launch-and-computer-updates---april-17-2026",
+        "https://www.theverge.com/ai-artificial-intelligence/893536/perplexitys-personal-computer-turns-your-spare-mac-into-an-ai-agent"
+      ]
+    }
+  ]
+}
