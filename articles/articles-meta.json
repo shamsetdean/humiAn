@@ -358,5 +358,13 @@
     "categorie": "tech",
     "date": "1er avril 2026",
     "auteur": "Shams & Dean"
+  },
+  {
+    "id": "perplexity-personal-computer-mac-agent",
+    "titre": "Perplexity veut transformer le Mac en agent IA",
+    "resume": "Perplexity lance Personal Computer sur Mac : un agent IA capable d'agir sur le système, pas seulement de répondre. Une évolution qui pose autant de questions qu'elle apporte de promesses.",
+    "categorie": "tech",
+    "date": "2026-04-19",
+    "auteur": "Shams Guettaf"
   }
 ]
