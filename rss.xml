@@ -5,7 +5,7 @@
     <link>https://shamsetdean.github.io/humiAn/</link>
     <description>Explorer la manière dont les comportements et les innovations numériques façonnent notre quotidien.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Tue, 21 Apr 2026 05:48:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 19:50:02 +0000</lastBuildDate>
     <atom:link href="https://shamsetdean.github.io/humiAn/rss.xml" rel="self" type="application/rss+xml"/>
     <copyright>Copyright 2026 Guettaf Shams — CC BY-NC-ND 4.0</copyright>
     <managingEditor>Shams &amp; Dean</managingEditor>
@@ -20,6 +20,15 @@
       <author>Shams &amp; Dean</author>
       <category>OS</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=app-store-renaissance-ia-2026</guid>
+    </item>
+    <item>
+      <title>Bornes électriques sur autoroute : la France passe à l'action</title>
+      <link>https://shamsetdean.github.io/humiAn/?article=bornes-electriques-autoroutes-france-2035</link>
+      <description>Le gouvernement français s'engage à porter les bornes de recharge sur autoroutes et nationales de 4 500 à 22 000 points d'ici 2035. Un plan ciblé sur les axes majeurs, avec des puissances adaptées aux voitures légères comme aux poids lourds. Les chiffres sont là. L'exécution reste à prouver.</description>
+      <pubDate>Sun, 19 Apr 2026 08:00:00 +0000</pubDate>
+      <author>Shams &amp; Dean</author>
+      <category>Tech</category>
+      <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=bornes-electriques-autoroutes-france-2035</guid>
     </item>
     <item>
       <title>Perplexity veut transformer le Mac en agent IA</title>
@@ -182,15 +191,6 @@
       <author>Shams &amp; Dean</author>
       <category>Hum{i}An</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=ia-donnees-consentement</guid>
-    </item>
-    <item>
-      <title>ChatGPT et Service Public : ne pas subir, mais maitriser</title>
-      <link>https://shamsetdean.github.io/humiAn/?article=chatgpt-service-public</link>
-      <description>L'arrivee de ChatGPT dans les collectivites n'est pas un simple outil en plus. C'est un changement de culture. La vraie question n'est pas : faut-il l'utiliser ? Mais comment l'utiliser intelligemment.</description>
-      <pubDate>Wed, 18 Mar 2026 08:00:00 +0000</pubDate>
-      <author>Shams &amp; Dean</author>
-      <category>Hum{i}An</category>
-      <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=chatgpt-service-public</guid>
     </item>
   </channel>
 </rss>
