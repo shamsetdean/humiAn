@@ -2,9 +2,11 @@
 """
 HumiAn -> LinkedIn : selection aleatoire d'un article + envoi par email.
 
+v2 : lit le dossier articles/ contenant un fichier JSON par article.
+
 Logique :
-1. Charge articles-meta.json depuis le repo (chemin local)
-2. Charge publications-history.json (historique des publications)
+1. Parcourt tous les .json du dossier articles/
+2. Charge publications-history.json (historique)
 3. Filtre les articles publies dans les 30 derniers jours -> exclus
 4. Selectionne aleatoirement parmi les eligibles
 5. Genere le texte du post LinkedIn (titre + resume + lien + hashtags)
@@ -24,7 +26,7 @@ from pathlib import Path
 
 # === CONFIG ===
 SITE_BASE_URL = "https://shamsetdean.github.io/humiAn/"
-ARTICLES_META_PATH = Path("articles-meta.json")
+ARTICLES_DIR = Path("articles")
 HISTORY_PATH = Path("publications-history.json")
 COOLDOWN_DAYS = 30
 
@@ -39,16 +41,45 @@ CATEGORY_HASHTAGS = {
 DEFAULT_HASHTAGS = "#Anthropotech #HumiAn"
 
 
-def load_articles():
-    """Charge la liste des articles depuis articles-meta.json."""
-    if not ARTICLES_META_PATH.exists():
-        sys.exit(f"ERREUR : {ARTICLES_META_PATH} introuvable.")
-    with open(ARTICLES_META_PATH, encoding="utf-8") as f:
-        data = json.load(f)
-    # Si le JSON est un objet avec une cle "articles", on extrait. Sinon on suppose une liste.
-    if isinstance(data, dict) and "articles" in data:
-        return data["articles"]
-    return data
+def load_articles_from_dir():
+    """Charge tous les .json du dossier articles/. Le nom de fichier (sans .json) sert d'id si absent."""
+    if not ARTICLES_DIR.exists():
+        sys.exit(f"ERREUR : dossier {ARTICLES_DIR} introuvable.")
+
+    articles = []
+    json_files = sorted(ARTICLES_DIR.glob("*.json"))
+    if not json_files:
+        sys.exit(f"ERREUR : aucun fichier .json dans {ARTICLES_DIR}.")
+
+    for path in json_files:
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+        except json.JSONDecodeError as e:
+            print(f"AVERTISSEMENT : {path.name} invalide ({e}), ignore.")
+            continue
+
+        # Si le JSON est une liste d'articles dans un seul fichier, on les ajoute tous
+        if isinstance(data, list):
+            for item in data:
+                if isinstance(item, dict):
+                    if "id" not in item:
+                        item["id"] = path.stem
+                    articles.append(item)
+        # Si c'est un objet avec une cle "articles"
+        elif isinstance(data, dict) and "articles" in data and isinstance(data["articles"], list):
+            for item in data["articles"]:
+                if isinstance(item, dict):
+                    if "id" not in item:
+                        item["id"] = path.stem
+                    articles.append(item)
+        # Cas standard : un objet = un article
+        elif isinstance(data, dict):
+            if "id" not in data:
+                data["id"] = path.stem
+            articles.append(data)
+
+    return articles
 
 
 def load_history():
@@ -87,37 +118,48 @@ def pick_article(articles, excluded_ids):
     return random.choice(eligible)
 
 
+def extract_excerpt(article):
+    """Extrait un resume robuste : essaie plusieurs noms de champs courants."""
+    for key in ("excerpt", "description", "summary", "resume", "intro", "chapeau", "lead"):
+        val = article.get(key)
+        if val and isinstance(val, str) and val.strip():
+            return val.strip()
+
+    # Fallback sur le contenu : premiere phrase
+    content = article.get("content") or article.get("contenu") or article.get("body") or ""
+    if isinstance(content, list):
+        # Cas : contenu sous forme de liste de paragraphes
+        content = " ".join(str(c) for c in content if c)
+    content = str(content).strip()
+    if content:
+        # Premier paragraphe non vide
+        for para in content.split("\n"):
+            para = para.strip()
+            if para and not para.startswith("#"):  # ignore les titres Markdown
+                return para[:250]
+    return ""
+
+
 def build_linkedin_post(article):
     """Construit le texte du post LinkedIn."""
-    title = article.get("title", "Article HumiAn")
-    # Recuperer un resume : essaie "excerpt", "description", "summary", ou tronque "content"
-    excerpt = (
-        article.get("excerpt")
-        or article.get("description")
-        or article.get("summary")
-        or ""
-    )
-    if not excerpt and article.get("content"):
-        content = article["content"]
-        if isinstance(content, list):
-            content = " ".join(str(c) for c in content)
-        # Premier paragraphe ou 200 premiers caracteres
-        excerpt = str(content).split("\n")[0][:200]
-
+    title = article.get("title") or article.get("titre") or "Article HumiAn"
+    excerpt = extract_excerpt(article)
     article_id = article.get("id", "")
     url = f"{SITE_BASE_URL}?article={article_id}"
 
-    category = (article.get("category") or "").lower()
+    category = (article.get("category") or article.get("categorie") or "").lower()
     hashtags = CATEGORY_HASHTAGS.get(category, DEFAULT_HASHTAGS)
 
-    post = f"""{title}
+    parts = [title]
+    if excerpt:
+        parts.append("")
+        parts.append(excerpt)
+    parts.append("")
+    parts.append(f"Lire l'article complet : {url}")
+    parts.append("")
+    parts.append(hashtags)
 
-{excerpt}
-
-Lire l'article complet : {url}
-
-{hashtags}"""
-    return post
+    return "\n".join(parts)
 
 
 def send_email(post_text, article):
@@ -129,7 +171,9 @@ def send_email(post_text, article):
     if not smtp_user or not smtp_password:
         sys.exit("ERREUR : SMTP_USER et SMTP_PASSWORD doivent etre definis.")
 
-    subject = f"[HumiAn -> LinkedIn] {article.get('title', 'Article')}"
+    title = article.get("title") or article.get("titre") or "Article"
+    category = article.get("category") or article.get("categorie") or "n/c"
+    subject = f"[HumiAn -> LinkedIn] {title}"
 
     body_plain = f"""Post LinkedIn pret a copier-coller :
 
@@ -138,14 +182,14 @@ def send_email(post_text, article):
 ----- FIN DU POST -----
 
 Article ID : {article.get('id')}
-Categorie : {article.get('category', 'n/c')}
+Categorie : {category}
 Genere le : {datetime.now(timezone.utc).isoformat()}
 """
 
     body_html = f"""<html><body style="font-family: Georgia, serif; max-width: 640px;">
 <h2 style="color: #7a1f2e;">Post LinkedIn pret</h2>
-<p><strong>Article :</strong> {article.get('title')}<br>
-<strong>Categorie :</strong> {article.get('category', 'n/c')}<br>
+<p><strong>Article :</strong> {title}<br>
+<strong>Categorie :</strong> {category}<br>
 <strong>ID :</strong> <code>{article.get('id')}</code></p>
 
 <div style="background: #f5f3ef; border-left: 4px solid #7a1f2e; padding: 16px; white-space: pre-wrap; font-family: monospace; font-size: 14px;">{post_text}</div>
@@ -177,8 +221,12 @@ Anthropotech Lab.
 def main():
     print("=== HumiAn -> LinkedIn : selection d'article ===")
 
-    articles = load_articles()
-    print(f"Articles charges : {len(articles)}")
+    articles = load_articles_from_dir()
+    print(f"Articles charges depuis {ARTICLES_DIR}/ : {len(articles)}")
+
+    # Sanity check : afficher les IDs pour debug visuel
+    ids_preview = [a.get("id", "?") for a in articles[:5]]
+    print(f"Exemples d'IDs : {ids_preview}{'...' if len(articles) > 5 else ''}")
 
     history = load_history()
     print(f"Historique : {len(history)} entree(s)")
@@ -193,7 +241,8 @@ def main():
         if article is None:
             sys.exit("ERREUR : aucun article disponible.")
 
-    print(f"Article selectionne : {article.get('id')} - {article.get('title')}")
+    title = article.get("title") or article.get("titre") or "(sans titre)"
+    print(f"Article selectionne : {article.get('id')} - {title}")
 
     post_text = build_linkedin_post(article)
     print("\n----- POST GENERE -----")
@@ -204,7 +253,7 @@ def main():
 
     history.append({
         "article_id": article.get("id"),
-        "title": article.get("title"),
+        "title": title,
         "published_at": datetime.now(timezone.utc).isoformat(),
     })
     save_history(history)
