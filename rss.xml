@@ -5,13 +5,22 @@
     <link>https://shamsetdean.github.io/humiAn/</link>
     <description>Explorer la manière dont les comportements et les innovations numériques façonnent notre quotidien.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Mon, 18 May 2026 04:56:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 04:47:43 +0000</lastBuildDate>
     <atom:link href="https://shamsetdean.github.io/humiAn/rss.xml" rel="self" type="application/rss+xml"/>
     <copyright>Copyright 2026 Guettaf Shams — CC BY-NC-ND 4.0</copyright>
     <managingEditor>Shams &amp; Dean</managingEditor>
     <category>Technologie</category>
     <category>Numérique</category>
     <ttl>1440</ttl>
+    <item>
+      <title>Le rachat de Cursor par SpaceX révèle la vraie bataille du code IA</title>
+      <link>https://shamsetdean.github.io/humiAn/?article=rachat-cursor-spacex-verification-code-ia</link>
+      <description>SpaceX rachète Cursor pour 60 milliards de dollars. Derrière l'opération financière, un déplacement stratégique : la compétition dans l'IA de codage ne se joue plus sur la génération, mais sur la vérification.</description>
+      <pubDate>Mon, 06 Jul 2026 08:00:00 +0000</pubDate>
+      <author>Shams &amp; Dean</author>
+      <category>Intelligence artificielle</category>
+      <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=rachat-cursor-spacex-verification-code-ia</guid>
+    </item>
     <item>
       <title>Siri change de cap : une IA à la sauce Apple</title>
       <link>https://shamsetdean.github.io/humiAn/?article=siri-ios-27-nouvelle-generation</link>
@@ -182,15 +191,6 @@
       <author>Shams &amp; Dean</author>
       <category>Hum{i}An</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=ia-pme-avant-cliquer</guid>
-    </item>
-    <item>
-      <title>Le procès des écrans : Meta confronté à ses plateformes</title>
-      <link>https://shamsetdean.github.io/humiAn/?article=proces-ecrans-algorithmes</link>
-      <description>Le 25 mars 2026, un tribunal du Nouveau-Mexique a condamné Meta à 375 millions de dollars pour mise en danger de mineurs. Une décision historique qui interroge la conception des plateformes — et la responsabilité des foyers.</description>
-      <pubDate>Thu, 26 Mar 2026 08:00:00 +0000</pubDate>
-      <author>Shams &amp; Dean</author>
-      <category>Hum{i}An</category>
-      <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=proces-ecrans-algorithmes</guid>
     </item>
   </channel>
 </rss>
