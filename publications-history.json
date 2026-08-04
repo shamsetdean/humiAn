@@ -148,5 +148,10 @@
     "article_id": "obs-streaming",
     "title": "OBS : le couteau suisse de la diffusion en direct",
     "published_at": "2026-07-30T09:26:43.772664+00:00"
+  },
+  {
+    "article_id": "nas-wireguard-freebox",
+    "title": "Sécuriser son NAS à la maison : la méthode WireGuard sur Freebox Pop",
+    "published_at": "2026-08-04T09:36:16.256601+00:00"
   }
 ]
