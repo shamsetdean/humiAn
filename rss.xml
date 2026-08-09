@@ -5,13 +5,22 @@
     <link>https://shamsetdean.github.io/humiAn/</link>
     <description>Explorer la manière dont les comportements et les innovations numériques façonnent notre quotidien.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Mon, 06 Jul 2026 04:47:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 07:20:58 +0000</lastBuildDate>
     <atom:link href="https://shamsetdean.github.io/humiAn/rss.xml" rel="self" type="application/rss+xml"/>
     <copyright>Copyright 2026 Guettaf Shams — CC BY-NC-ND 4.0</copyright>
     <managingEditor>Shams &amp; Dean</managingEditor>
     <category>Technologie</category>
     <category>Numérique</category>
     <ttl>1440</ttl>
+    <item>
+      <title>Internet n'est plus ce qu'il était</title>
+      <link>https://shamsetdean.github.io/humiAn/?article=internet-nest-plus-ce-quil-etait</link>
+      <description>68% de la population mondiale est en ligne, les IA génératives rédigent, codent et convainquent déjà mieux que des humains formés. Et pendant ce temps, personne n'apprend à s'en servir.</description>
+      <pubDate>Sun, 09 Aug 2026 08:00:00 +0000</pubDate>
+      <author>Shams &amp; Dean</author>
+      <category>Hum{i}An</category>
+      <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=internet-nest-plus-ce-quil-etait</guid>
+    </item>
     <item>
       <title>Le rachat de Cursor par SpaceX révèle la vraie bataille du code IA</title>
       <link>https://shamsetdean.github.io/humiAn/?article=rachat-cursor-spacex-verification-code-ia</link>
@@ -182,15 +191,6 @@
       <author>Shams &amp; Dean</author>
       <category>OS</category>
       <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=gemini-mac-contre-attaque</guid>
-    </item>
-    <item>
-      <title>L'IA pour PME : réfléchissez avant de cliquer</title>
-      <link>https://shamsetdean.github.io/humiAn/?article=ia-pme-avant-cliquer</link>
-      <description>Sans cap précis, l'IA draine trésorerie et énergie. Mesurez vos victoires ou passez votre tour. Cumul de microgains, zéro illusion.</description>
-      <pubDate>Thu, 26 Mar 2026 08:00:00 +0000</pubDate>
-      <author>Shams &amp; Dean</author>
-      <category>Hum{i}An</category>
-      <guid isPermaLink="true">https://shamsetdean.github.io/humiAn/?article=ia-pme-avant-cliquer</guid>
     </item>
   </channel>
 </rss>
