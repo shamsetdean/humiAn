@@ -318,5 +318,10 @@
     "article_id": "rgpd-collectivites",
     "title": "Le RGPD pour les Collectivites : prenez pas les données a la legere",
     "published_at": "2026-10-20T12:29:08.754867+00:00"
+  },
+  {
+    "article_id": "nas-wireguard-freebox",
+    "title": "Sécuriser son NAS à la maison : la méthode WireGuard sur Freebox Pop",
+    "published_at": "2026-10-21T12:39:53.042619+00:00"
   }
 ]
